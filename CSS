@@ -1,0 +1,4497 @@
+/*--------------------------------------------------------------------------
+
+    	
+	Project:	  GrandOrder Style
+	Admin:		  Yween
+        Banner by:        Sauce
+          logo by:        Sauce
+	Flairs by:        Kuroma
+        Comment Faces by: Sauce 
+
+    
+--------------------------------------------------------------------------*/
+
+
+/*===============================ANNOUNCEMENT===============================*/
+
+/*Wiki page- White*/
+body.wiki-page .wiki-page-content {
+background-color: #ffffff;
+width: 100%;
+height: 100%; 
+border: none;
+margin: 0px -5px 4px;
+padding-left: 5px;
+padding-right: 5px;
+padding-top: 10px;
+}
+
+.md.wiki { 
+width: 95%;
+margin: auto;
+}
+
+body>.content:before,
+.res-nightmode body > .content:before {
+ content: "Post/comment not appearing? That means your account is new and Reddit's anti-spam filter is on you until you're more active." ;
+	background-repeat: no-repeat;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	bottom:40px; 
+	width: 100%;
+	margin: 0 5px;
+	background:#9EB8EA;
+	height: 37px;
+	line-height: 37px;
+	overflow: hidden;
+	border-radius: 2px;
+	box-shadow: 0px 2px 4px rgba(0,0,0,.2);
+	display: block;
+}
+
+.res-nightmode body > .content:before {
+    background: #333;
+}
+
+
+
+/*===============================HEADER===============================*/
+
+
+
+.flairrow .flairdeletebtn {
+	display: none !important
+}
+
+.tabmenu {
+	position: relative;
+	z-index: 1;
+}
+
+#header-bottom-left {
+
+/*    background-image: url(%%whitefade%%); */
+    background-repeat: no-repeat;
+    height: 113px;
+    background-color: transparent;
+    border-bottom: 30px solid #9EB8EA
+}
+body.res-nightmode #header-bottom-left {
+    background-image: none!important;
+    background-color: #444;
+    border-bottom: 30px solid #333
+}
+
+.pagename {
+	float: left;
+}
+#header .tabmenu {
+    line-height: 25px;
+    top: 107px;
+    left: 20px;
+    display: inline-block;
+}
+
+#header {
+    background-image: url(%%banner02%%);
+    height: 134px;   /* 50px up */
+    width: 100%;
+
+    background-repeat: repeat;
+     -webkit-animation: banner 300s infinite linear;
+     animation: banner 300s infinite linear;
+ }
+
+     @-webkit-keyframes banner {
+     from { background-position: 0 18px; }
+     to { background-position: -5760px 18px; }
+}
+     @keyframes banner {
+    from { background-position: 0 18px; }
+     to { background-position: -5760px 18px; }
+}
+
+
+/* Make header image fill full page width */
+/*
+
+#header {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%; 
+}
+
+@media (max-width: 1980px), (max-device-width: 1980px) {
+	#header {
+		background-size: auto;
+		background-position:0 19px;
+	}
+}
+*/
+
+
+/*===============================SIDEBAR===============================*/
+/*===============================SIDEBAR===============================*/
+
+
+body {
+    position: relative;
+    font-family: 'Open Sans', 'Segoe UI', 'Helvetica neue', Meiryo, sans-serif;
+    background-color: #eee
+}
+body > .content {
+    overflow: hidden;
+}
+.md p {
+     font-family: 'Open Sans', 'Segoe UI', 'Helvetica neue', Meiryo, sans-serif;
+     margin: 15px;
+     position: relative;
+     text-align: left;
+     display: block;
+     padding: auto;
+}
+.link .usertext .md,
+.usertext table.markhelp,
+.btn .login-form-side,
+.infobar,
+#search,
+#search input[type=text],
+.link,
+#header-bottom-right #userbarToggle,
+.linkinfo,
+textarea,
+.rounded,
+.sidecontentbox .content {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+.roundfield {
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 2px;
+}
+#sr-header-area {
+    background-color: transparent;
+    text-transform: lowercase;
+    border-bottom: 3px solid #9EB8EA;
+    font-size: 100%;
+    font-family: 'Open Sans', 'Segoe UI', 'Helvetica neue', Meiryo, sans-serif
+}
+#sr-header-area a {
+    color: #9EB8EA
+}
+body.res-nightmode #header {
+    border-color: #DDF
+}
+body.res-nightmode #header .tabmenu li:not(.selected) a {
+    color: #fff
+}
+#header .tabmenu li.selected a {
+    border: 0;
+    border-bottom: 1px solid #FFF
+}
+#header .tabmenu li:not(.selected):hover a {
+    background-color: #9A0201;
+    color: #FFF
+}
+
+body.res-nightmode #header .tabmenu li:not(.selected):hover a {
+    background-color: #CCC;
+    color: #444
+}
+#header-img {
+    margin: 8px 20px 0
+}
+.pagename {
+    margin-right: 25px;
+    font-weight: 700;
+    font-variant: normal;
+    font-size: 18px
+}
+body.res-nightmode .pagename a {
+    font-size: 0!important
+}
+#sr-header-area .dropdown.srdrop,
+#sr-header-area#srLeftContainer {
+    padding-left: 21px
+}
+#sr-more-link,
+#header #sr-header-area #RESShortcutsEditContainer,
+#header #sr-header-area #RESShortcutsRight,
+#header #sr-header-area #RESShortcutsLeft,
+#header #sr-header-area #RESShortcutsAdd,
+#header #sr-header-area #RESShortcutsTrash {
+    background-color: #D9D9D9
+}
+body.res-nightmode #sr-header-area,
+body.res-nightmode #sr-more-link {
+    background-color: #2F2F2F!important
+}
+#sr-header-area #RESShortcutsEditContainer,
+#sr-more-link {
+    border-right: 20px solid #c6daed;
+    font-weight: bolder
+}
+#header-bottom-right {
+    right: 20px;
+    background-color: #D9D9D9;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0;
+    bottom: 8px
+}
+body.res-nightmode #header-bottom-right {
+    background-color: transparent!important
+}
+#header-bottom-right.res-navTop {
+    top: 21px!important
+}
+#header-bottom-right.res-navTop #userbarToggle {
+    -moz-border-radius-topleft: 0;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0
+}
+#header-bottom-right #userbarToggle {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    width: 14px;
+    padding-right: 4px;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0
+}
+#search input[type=submit] {
+    top: 7px;
+    position: relative;
+    z-index: 200
+}
+body.res-nightmode #search {
+    background-color: transparent;
+    border-color: #BBB
+}
+.side .spacer:nth-of-type(1),
+.side .spacer:nth-of-type(2) {
+    margin: 0
+}
+#search {
+    white-space: nowrap
+}
+.side .spacer #search input[type=text] {
+    z-index: 100;
+    border: none;
+    font-size: 14px;
+    width: 300px;
+    background: #fff;
+    padding: 3px;
+    margin-bottom: 10px;
+    padding: 10px 25px 10px 16px;
+    border-radius: 2px;
+    margin-top: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2)
+}
+.res-nightmode .side .spacer #search input[type=text] {
+    background-color: #444
+}
+#searchexpando,
+#moresearchinfo {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    border: 0;
+    position: absolute;
+    z-index: 99;
+    width: 280px
+}
+.side {
+    margin: 0 20px;
+    background-color: #eee;
+    border-bottom: 0 solid #AAA;
+    margin-top: 30px
+}
+.side .spacer .titlebox,
+.side .spacer .sidecontentbox {
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 2px;
+    margin-top: 15px;
+}
+.res-nightmode .side .spacer .titlebox,
+.res-nightmode .side .spacer .sidecontentbox {
+    background-color: #333
+}
+.side .md {
+   overflow: hidden;
+}
+.titlebox {
+    padding: 0 10px
+}
+.titlebox .bottom {
+    display: none
+}
+.side .titlebox > h1 {
+    font-size: 34px;
+    letter-spacing: -1px
+}
+.linkinfo {
+    padding: 15px;
+    border: none;
+    background-color: #CEE3F8
+}
+body.res-nightmode .side .redditname a {
+    color: #DDD!important
+}
+.sidebox.submit .spacer,
+.sidebox.create {
+    display: none
+}
+.linkinfo .score .word,
+.linkinfo .score .number {
+    font-size: 15px
+}
+.sidecontentbox .content {
+    border: 1px solid #EAEAEA;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+.icon-menu li {
+    margin: 0 0 5px
+}
+.side h1,
+.side h2,
+.side h3 {
+    color: #222
+}
+.side h1 {
+    font-size: 19px
+}
+.side h2 {
+    font-size: 16px
+}
+.side h3 {
+    font-size: 14px
+}
+body.res-nightmode .login-form-side {
+    background-color: #111!important;
+    color: #DDD!important;
+    border: 1px solid #DDD!important
+}
+body.res-nightmode .login-form-side #remember-me label {
+    color: #DDD!important
+}
+body.res-nightmode .login-form-side #remember-me input {
+    width: auto!important;
+    margin-left: 6px
+}
+body.res-nightmode .side .login-form-side .submit {
+    padding: 4px;
+    background-color: transparent
+}
+body.res-nightmode .side .login-form-side .submit .btn {
+    margin: auto
+}
+.sidebox.submit {
+    width: 300px
+}
+body.res-nightmode .sidebox {
+    padding-left: 0!important
+}
+body.res-nightmode .sidebox.submit {
+    background-image: none!important;
+}
+body.res-nightmode .sidebox.submit .nub {
+}
+body.res-nightmode .sidebox,
+body.res-nightmode .subredditbox,
+body.res-nightmode .subreddit-info,
+body.res-nightmode .raisedbox,
+body.res-nightmode .login-form-side {
+    border: 0!important;
+    border-radius: 0!important;
+    -moz-border-radius: 0!important;
+    -webkit-border-radius: 0!important
+}
+/*******************Submit Post Text Image******************/
+.linefield,
+.roundfield {
+    background-color: #CCCCD9 !important;
+    border: 1px solid #37373F !important;
+}
+
+.formtabs-content {
+    border-top: 4px solid rgb(0, 0, 0);
+}
+
+.roundfield .usertext-edit textarea {
+    background-image: url("%%submitbox%%");
+    background-repeat: no-repeat;
+    -webkit-transition: background 0.25s linear;
+    -moz-transition: background 0.25s linear;
+    -o-transition: background 0.25s linear;
+    transition: background 0.25s linear;
+}
+
+.roundfield .usertext-edit textarea:focus { background-position: 0 -128px; right: -10px }
+/*========================SUBMIT BUTTONS========================*/
+
+.morelink .nub {
+    background: none !important;
+}
+
+.morelink a, .morelink a:hover {
+    color: transparent;
+}
+
+.morelink {
+    width: 302px;
+    Height: 37px;
+    border: none;
+}
+
+.res-nightmode .morelink {
+    line-height: 36px;
+}
+
+.res-nightmode .submit-link .morelink {
+    background: transparent;
+}
+.submit-link .morelink {
+    background:url(%%submit%%) -5px -89px;
+}
+
+.res-nightmode .submit-link .morelink:hover {
+    background: transparent;
+}
+.submit-link .morelink:hover {
+    background:url(%%submit%%) -7px -6px;
+}
+
+.res-nightmode .submit-text .morelink {
+    background: transparent;
+}
+.submit-text .morelink {
+    background:url(%%submit%%) -5px -126px;
+}
+
+.res-nightmode .submit-text .morelink:hover {
+    background: transparent;
+}
+.submit-text .morelink:hover {
+    background:url(%%submit%%) -7px -42px;
+}
+
+
+/*========================OTHER SHIT========================*/
+
+
+.sitetable {
+    font-family: 'Open Sans', 'Segoe UI', 'Helvetica neue', Meiryo, sans-serif;
+    clear: left
+}
+.infobar {
+    overflow: hidden;
+    margin: 0 0 10px
+}
+.content {
+    margin: 20px 0 0 20px
+}
+.link,
+.link.promotedlink.promoted {
+    overflow: hidden;
+    margin: 0;
+    border: 0 solid #EAEAEA;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    padding: 10px;
+    margin-top: 17px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+body.res-nightmode .sitetable .thing.link,
+body.res-nightmode div#siteTable div[onclick="click_thing(this)"] {
+    border: 1px solid #4c4c4c!important;
+    background-color: #333!important
+}
+body.res-nightmode .sitetable .thing.link .keyHighlight {
+    background-color: #363636!important;
+    border-color: #666!important;
+    outline-color: #666!important
+}
+body.res-nightmode .midcol {
+    background-color: transparent!important;
+    padding: 4px
+}
+.link .rank {
+    display: none
+}
+.link.last-clicked {
+    border: 0 dashed #EAEAEA
+}
+body.res-nightmode .link.last-clicked {
+    border-color: #666
+}
+.linklisting > .clearleft {
+    margin: 5px
+}
+.entry .buttons li {
+    display: inline;
+    float: left
+}
+.link .midcol {
+    margin-right: 10px;
+    margin-left: 0
+}
+
+.comment .midcol {
+    width: 23px!important;
+}
+
+.commentarea {
+    margin-top: 10px
+}
+.link.self .usertext-body .md p,
+.comment .usertext-body .md p {
+    line-height: 1.3em
+}
+.link .usertext .md {
+    padding: 5px 10px
+}
+.panestack-title {
+    border: none;
+    margin: 0;
+    padding: 0
+}
+.panestack-title .title {
+    float: left;
+    font-size: 11px;
+    color: #888;
+    margin: 0
+}
+.commentarea .menuarea {
+    font-size: 11px;
+    margin: 0
+}
+.panestack-title:after {
+    content: '-';
+    padding: 0 5px;
+    float: left
+}
+.commentarea > .usertext {
+    clear: left;
+    margin: 0
+}
+.usertext-edit {
+    width: auto
+}
+.usertext-edit textarea {
+    width: 430px;
+    padding: 10px
+}
+.usertext .bottom-area {
+    width: 450px
+}
+.comment .usertext .bottom-area {
+    width: 100%
+}
+.usertext button {
+    margin: 5px 5px 10px 0;
+    border: none;
+    min-width: 70px
+}
+body.res-nightmode .usertext .help-toggle {
+    background-color: #DDD
+}
+.usertext .help-toggle a {
+    color: #FFF
+}
+body.res-nightmode .usertext .help-toggle a {
+    color: #444!important
+}
+.usertext table.markhelp {
+    width: 450px;
+    font-size: 11px
+}
+.link .usertext .md {
+    background-color: #FFF;
+    border: 1px solid #EAEAEA
+}
+.entry .buttons li a {
+    font-family: 'Open Sans', 'Segoe UI', 'Helvetica neue', Meiryo, sans-serif
+}
+.usertext .help-toggle,
+.res-nightmode button.RESBigEditorPop,
+.usertext .bottom-area .reddiquette {
+    background-color: #999;
+    border: none;
+    color: #FFF;
+    padding: 6px;
+    margin: 5px 3px;
+    font-size: 13px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    -khtml-border-radius: 0;
+    border-radius: 0
+}
+#RESShortcutsSort {
+    background-color: transparent!important
+}
+.stylesheet-customize-container {
+    width: 100%
+}
+#subreddit_stylesheet {
+    display: block;
+    overflow: hidden;
+    padding-right: 80px
+}
+.sheets {
+    margin: 0
+}
+#stylesheet_contents {
+    font-family: Consolas, Monaco, monospace;
+    padding: 12px;
+    background-color: #222;
+    color: #ace;
+    border: 8px solid #222
+}
+body.res-nightmode #stylesheet_contents {
+    background-color: #111;
+    border-color: #111
+}
+body:lang(np):not(.subscriber) .arrow {
+    visibility: hidden!important
+}
+body:lang(np):not(.subscriber) .usertext-edit,
+body:lang(np):not(.subscriber) .sidebox.submit,
+body:lang(np):not(.subscriber) .commentingAs,
+body:lang(np):not(.subscriber) .markdownEditor,
+body:lang(np):not(.subscriber) .report-button,
+body:lang(np):not(.subscriber) a[onclick*="return reply(this)"],
+body:lang(np):not(.subscriber) .subButtons,
+body:lang(np):not(.subscriber) .helplink,
+body:lang(np):not(.subscriber) .titlebox .fancy-toggle-button.toggle > .option.add {
+    display: none!important
+}
+body:lang(np):not(.subscriber) > .content:before {
+    content: "You have been linked to a read-only version of this subreddit. Please respect the community by not voting.";
+    display: block;
+    max-width: 800px;
+    background-color: #F6E69F;
+    padding: 5px 10px;
+    margin: 5px 2px;
+    border: 1px solid orange;
+    font-size: small;
+    text-align: center
+}
+body:lang(np):not(.subscriber) .entry.likes:not(.reddit-entry):before,
+body:lang(np):not(.subscriber) .entry.dislikes:not(.reddit-entry):before {
+    content: "Please do not vote or comment when you come from external subreddits.";
+    color: red;
+    font-size: large;
+    font-weight: 700
+}
+body.wiki-page:lang(np):not(.subscriber) span.pageactions a.wikiaction-edit:not(.wikiaction-current),
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform label[for='reason'],
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform input#wiki_revision_reason,
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform input[type='submit'] {
+    display: none!important
+}
+.md table {
+    border: 1px solid #ccc;
+    font-family: 'Open Sans', 'Segoe UI', 'Helvetica neue', Meiryo, sans-serif;
+    margin: 10px 0
+}
+body.res-nightmode .md table {
+    border-color: #666
+}
+.side .md table {
+    width: 100%
+}
+.md table * {
+    border: 0
+}
+body.res-nightmode .md table * {
+    color: #ddd
+}
+.md table th {
+    text-align: center
+}
+.md table tr:nth-child(even),
+.md table thead {
+    background-color: #f6f6f6
+}
+body.res-nightmode .md table tr:nth-child(even),
+body.res-nightmode .md table thead {
+    background-color: #444
+}
+.md table td,
+.md table th {
+    border-right: 1px solid #ccc;
+    padding: 4px 8px
+}
+body.res-nightmode .md table td,
+body.res-nightmode .md table th {
+    border-color: #666
+}
+body:not(.res-nightmode) .md table tbody {
+    color: #444
+}
+
+
+.md ol {
+    counter-reset: inc 0
+}
+ol li p,
+ul li p {
+    display: inline
+}
+.md ol li:before {
+    counter-increment: inc 1;
+     /* content: counter(inc, decimal) '. '; */
+    margin-right: 4px;
+    color: #999
+}
+.side blockquote + hr {
+    border-width: 0;
+    width: 0;
+    background-color: transparent;
+    margin: 10px 0 0
+}
+body.res-nightmode .side hr {
+    border: 0!important;
+    border-bottom: 1px solid #000!important
+}
+.side blockquote {
+    border: 0 none;
+    padding: 15px;
+    margin: 0;
+    background-color: #EFEFEF;
+    border-radius: 2px;
+    border-bottom: 1px solid #AAA
+}
+.side h4,
+.side h5,
+.side h6 {
+    height: 0
+}
+.side blockquote h1 ~ p {
+    margin-left: 21px
+}
+.side blockquote h1 {
+    background-color: transparent!important;
+    margin-bottom: 15px
+}
+.side blockquote pre,
+.side blockquote code {
+    color: #222!important
+}
+.side h6+blockquote p,
+.side h5+blockquote p,
+.side h4+blockquote p {
+    color: #000!important
+}
+.side h6+blockquote a,
+.side h5+blockquote a,
+.side h4+blockquote a {
+    color: #369
+}
+.side .spacer .md h1,
+.side .spacer .md h2,
+.side .spacer .md h3 {
+    background: transparent!important
+}
+.side blockquote+p,
+.side p+blockquote,
+.side p+h4,
+.side p+h5,
+.side p+h6 {
+    margin-top: 15px
+}
+body.res-nightmode .side blockquote h1,
+body.res-nightmode .side blockquote h1 a {
+    color: #EEE!important
+}
+body.res-nightmode .side h4+blockquote,
+body.res-nightmode .side h5+blockquote,
+body.res-nightmode .side h6+blockquote,
+.res-nightmode .side blockquote {
+    background-color: #393939
+}
+.md h4 + table {
+    border-color: #9EF886
+}
+.md h4 + table td,
+.md h4 + table th {
+    border-right-color: #9EF886
+}
+.md h4 + table tr:nth-child(even),
+.md h4 + table thead {
+    background-color: #E9FFE6
+}
+body.res-nightmode .md h4 + table {
+    border-color: #9EF886
+}
+body.res-nightmode .md h4 + table td,
+body.res-nightmode .md h4 + table th {
+    border-right-color: #9EF886
+}
+body.res-nightmode .md h4 + table tr:nth-child(even),
+body.res-nightmode .md h4 + table thead {
+    background-color: #207807
+}
+body.res-nightmode .md h4 + ul,
+body.res-nightmode .md h4 + ol {
+    border-left-color: #9EF886
+}
+body.res-nightmode .md h4 + ul li:nth-child(odd),
+body.res-nightmode .md h4 + ol li:nth-child(odd) {
+    background-color: #207807
+}
+.btn,
+button,
+.side a[href*='/#btn'] {
+    background-color: #9EB8EA;
+    border: none;
+    color: #FFF;
+    padding: 6px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: 'Open Sans', 'Segoe UI', 'Helvetica neue', Meiryo, sans-serif;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px
+}
+.side a[href*='/#btn'] {
+    text-align: center;
+    display: block;
+    width: auto;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 29px;
+    margin: 10px 0
+}
+body.res-nightmode .btn,
+body.res-nightmode button,
+body.res-nightmode .side a[href*='/#btn'] {
+    color: #444!important;
+    background-color: #CCC!important
+}
+.btn a {
+    color: #FFF
+}
+body.res-nightmode .btn a {
+    color: #444!important
+}
+.btn:hover,
+button:hover,
+.side a[href*='/#btn']:hover {
+    background-color: #7EF0F2;
+    border-color: #9E5200
+}
+body.res-nightmode .btn:hover,
+body.res-nightmode button:hover,
+body.res-nightmode .side a[href*='/#btn']:hover {
+    background-color: #DDD!important;
+    border-color: #DDD
+}
+.usertext-body pre {
+    margin: 10px 0;
+    padding: 10px;
+    color: #222!important
+}
+.usertext-body pre,
+.usertext-body p > code {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 11px;
+    color: #222!important;
+    overflow: auto
+}
+.usertext-body code {
+    color: #222!important;
+    font-family: Consolas, Monaco, monospace;
+    line-height: 1.5em
+}
+.usertext-body p > code {
+    padding: 0 3px;
+    color: #222!important
+}
+.users-online:before {
+    background-image: url(%%online%%);
+    background-position: 0
+}
+.side a[href*='#icon-'] {
+    color: #000;
+    cursor: default
+}
+
+/*
+Color Scheme:
+#48BA97 dark
+#61D0AF light
+rgb(201,120,99) light
+rgb(127,91,79) dark
+#E26A70 dark pink
+#FEC9C9 light pink
+#D6FFFF light blue
+#7EF0F2 dark blue
+#9EB8EA dankest blue
+rgb(201,120,99) red shit
+*/
+
+.titlebox .word {
+    display: none
+}
+.titlebox .number:after {
+    content: " stranded on uncharted island "
+}
+.titlebox .users-online span.number:after {
+    content: " vacationing in Hawaii "
+}
+.titlebox .word {
+    display: none
+}
+.sidebox .spacer,
+.icon-menu a {
+    background: transparent
+}
+.pagename a {
+    transition: .5s;
+    display: block;
+    background-image: url(%%logo1%%);
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 124px;
+    margin: 0 auto;
+    font-size: 0;
+    padding: 0;
+    color: #364657;
+    left: 360px;
+    position: absolute;
+    top: 20px;
+    z-index: 0
+}
+.pagename a:hover {
+    background-image: url(%%logo2%%);
+    top: 23px;
+}
+.submit .tabmenu {
+    position: absolute;
+    top: 165px;
+    left: 300px;
+    z-index: 999;
+    background: transparent;
+    font-size: 14px;
+    font-variant: small-caps
+}
+.tabmenu li,
+.submit .tabmenu li {
+    display: block;
+    float: left;
+    margin: 0 -10px 0 0;
+    padding: 2px
+}
+.tabmenu li a,
+.submit .tabmenu li a {
+    background-color: transparent;
+    border: none!important;
+    color: #FFF;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 20px;
+    padding: 0 10px
+}
+.res-nightmode .tabmenu li a,
+.res-nightmode .submit .tabmenu li a {
+    background-color: transparent!important
+}
+.tabmenu li.selected a,
+.submit .tabmenu li.selected a {
+    background-color: transparent!important;
+    color: #0A543E!important;
+    font-weight: 700
+}
+.res-nightmode .tabmenu li.selected a,
+.res-nightmode .submit .tabmenu li.selected a {
+    color: #F5A500!important
+}
+ul.tabmenu.formtab {
+    padding-left: 0
+}
+.tabmenu.formtab .selected am {
+    font-size: 10px
+}
+#header .tabmenu li:not(.selected):hover a {
+    background-color: transparent;
+    color: #197459
+}
+
+#header-img {
+    position: absolute;
+    top: px;
+    margin: 0;
+    top: 0;
+    left: -120px
+}
+#sr-header-area {
+    border-bottom: 0 solid #9EB8EA;
+    color: #9EB8EA
+}
+#sr-header-area a {
+    color: #9EB8EA
+}
+#header #sr-header-area #RESShortcutsEditContainer {
+    background-color: transparent
+}
+#sr-more-link,
+#header #sr-header-area #RESShortcutsEditContainer,
+#header #sr-header-area #RESShortcutsRight,
+#header #sr-header-area #RESShortcutsLeft,
+#header #sr-header-area #RESShortcutsAdd,
+#header #sr-header-area #RESShortcutsTrash {
+    background-color: transparent
+}
+#RESShortcutsSort,
+#RESShortcutsRight,
+#RESShortcutsLeft,
+#RESShortcutsAdd,
+#RESShortcutsTrash {
+    color: #9EB8EA!important
+}
+#sr-header-area #RESShortcutsEditContainer,
+#sr-more-link {
+    border-right: 7px solid transparent
+}
+#header-bottom-right.res-navTop {
+    top: 169px!important;
+    background: transparent
+}
+#header-bottom-right {
+    background-color: transparent!important
+}
+#header-bottom-right a {
+    color: #fff!important
+}
+.user,
+.separator {
+    color: #9EB8EA
+}
+#header-bottom-right .separator,
+#header-bottom-right .user {
+    color: #fff
+}
+#header-bottom-right.res-navTop #userbarToggle {
+    background-color: transparent
+}
+#header-bottom-right #userbarToggle {
+    color: #fff;
+    border: 0
+}
+.titlebox h4 a[href*="http://www.reddit.com/#top"] {
+    position: fixed;
+    left: 16px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    background-position: 0 0;
+    border-bottom: 0;
+    text-indent: -9999px;
+    padding: 0;
+    margin: 0;
+    opacity: .8
+}
+.titlebox h4 a[href*="http://www.reddit.com/#top"]:hover {
+    background-position: 0 -20px;
+    border-bottom: 0 solid;
+    opacity: 1
+}
+.new-page .titlebox h4 a[href*="/new"],
+.top-page .titlebox h4 a[href*="/top"],
+.hot-page .titlebox h4 a[href*="/hot"] {
+    border-bottom: 0 solid #5b92fa;
+    color: #EAEAEA
+}
+
+
+/* === Minor Tweaks === */
+.usertext-edit textarea {
+    width: 449px
+}
+.linkinfo {
+    background-color: #FFF;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 2px
+}
+.content {
+    margin: 55px 0 0 20px
+}
+
+
+h4 {
+    font-size: 150%!important;
+    font-weight: 700!important;
+    color: red!important;
+    text-shadow: #000 1px 1px 1px #747474
+}
+h5 {
+    font-size: 200%!important;
+    font-weight: 700!important;
+    text-align: center;
+}
+
+
+.thing.stickied a.title,
+.thing.stickied a.title:visited,
+.thing.stickied a.title.visited {
+    color: #48ba98
+}
+a[href="/m"],
+a[href="/a"],
+a[href="/t"],
+a[href="#s"] {
+    padding: 0 2px;
+    color: #FFF!important;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    cursor: help
+}
+a[href="/m"]:hover,
+a[href="/a"]:hover,
+a[href="/t"]:hover,
+a[href="#s"]:hover {
+    color: #f3920f!important
+}
+a[href="/m"]::after,
+a[href="/a"]::after,
+a[href="/t"]::after,
+a[href="#s"]::after {
+    content: attr(title);
+    padding: 0 8px
+}
+a[href="/m"]:hover::after,
+a[href="/m"]:active::after,
+a[href="/a"]:hover::after,
+a[href="/a"]:active::after,
+a[href="/t"]:hover::after,
+a[href="/t"]:active::after,
+a[href="#s"]:hover::after,
+a[href="#s"]:active::after {
+    color: #FFF
+}
+a[href="/m"] {
+    background: #000
+}
+a[href="/m"]::after {
+    background: #000;
+    color: #000
+}
+a[href="/a"] {
+    background: #800
+}
+a[href="/a"]::after {
+    background: #800;
+    color: #800
+}
+a[href="/t"] {
+    background: #000
+}
+a[href="/t"]::after {
+    background: #000;
+    color: #000
+}
+a[href="#s"] {
+    background: #000
+}
+a[href="#s"]::after {
+    background: #000;
+    color: #000
+}
+.titlebox form.toggle,
+.leavemoderator {
+    background: #fff none no-repeat scroll center left
+}
+.res-nightmode .titlebox form.toggle,
+.res-nightmode .leavemoderator,
+.res-nightmode .side .titlebox form.flairtoggle,
+.res-nightmode .side .leavemoderator {
+    background-color: #333!important
+}
+.sidecontentbox .content {
+    border: 0 solid #d9d9d9;
+    background-color: #fff
+}
+.icon-menu a {
+    background: #fff none no-repeat scroll center left
+}
+.sidebox.submit,
+.btn,
+button,
+.side a[href*="/#btn"] {
+}
+.linklisting>.clearleft {
+    margin: 7px
+}
+.footer {
+    background-color: #fff;
+    border-bottom: 0 solid #AAA;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 2px
+}
+.link.last-clicked {
+    border-bottom: 0 solid #AAA
+}
+.usertext button {
+    border-bottom: 0 solid #9E5200
+}
+.usertext .bottom-area .reddiquette,
+.content .RESBigEditorPop,
+.usertext .help-toggle {
+    background-color: #9EB8EA;
+    border: none;
+    color: #FFF;
+    padding: 6px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: "Open Sans", "Segoe UI", "Helvetica neue", Meiryo, sans-serif;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    border-radius: 2px
+}
+.usertext .help-toggle a,
+.usertext .bottom-area .reddiquette,
+.content .RESBigEditorPop,
+.usertext .help-toggle {
+    color: #fff
+}
+.organic-listing {
+    border: 0
+}
+.footer .col {
+    margin-bottom: 18px
+}
+.res .RES-keyNav-activeElement {
+    border-right: 2px solid #B74568;
+    background-color: transparent!important;
+}
+
+#searchexpando .searchexpando-submit {
+    display: none
+}
+#sr-header-area a.RESShortcutsCurrentSub {
+    color: #0D664B!important
+}
+.res #sr-header-area #RESShortcutsViewport a.RESShortcutsCurrentSub {
+    color: #197459!important
+}
+.res-nightmode #sr-header-area #RESShortcutsViewport a.RESShortcutsCurrentSub {
+    color: #F5A500!important
+}
+#ad-frame,
+#ad_main {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    border-radius: 2px
+}
+body .comment,
+.res-commentBoxes .content .comment {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2)
+}
+body .comment,
+body .comment .comment .comment,
+body .comment .comment .comment .comment .comment,
+body .comment .comment .comment .comment .comment .comment .comment,
+body .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .content .comment,
+.res-commentBoxes .content .comment .comment .comment,
+.res-commentBoxes .content .comment .comment .comment .comment .comment,
+.res-commentBoxes .content .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .content .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #fff
+}
+body .comment .comment,
+body .comment .comment .comment .comment,
+body .comment .comment .comment .comment .comment .comment,
+body .comment .comment .comment .comment .comment .comment .comment .comment,
+body .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .content .comment .comment,
+.res-commentBoxes .content .comment .comment .comment .comment,
+.res-commentBoxes .content .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .content .comment .comment .comment .comment .comment .comment .comment .comment,
+.res-commentBoxes .content .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #f7f7f8
+}
+
+
+.link .usertext-body .md {
+    background-color: transparent;
+    border: none;
+    border-radius: 0
+}
+.fancy-toggle-button {
+    background-image: none;
+    border: 0;
+    border-radius: 2px
+}
+.fancy-toggle-button .add {
+    background-image: none;
+    background-color: #9EB8EA!important;
+    border: 0;
+    border-radius: 2px;
+    padding: 3px 6px
+}
+.fancy-toggle-button .remove {
+    background-image: none;
+    border: 0;
+    border-radius: 2px;
+    padding: 3px 6px;
+    background-color: #b74568
+}
+.RESshortcutside,
+.RESDashboardToggle {
+    margin-right: 5px;
+    margin-top: 2px;
+    color: #fff;
+    background-image: none!important;
+    cursor: pointer;
+    text-align: center;
+    width: 68px;
+    border: 0 solid #444!important;
+    padding: 3px 6px!important;
+    background-color: #9EB8EA!important;
+    border-radius: 2px!important
+}
+.RESshortcutside.remove,
+.RESDashboardToggle.remove {
+    background-image: none!important;
+    background-color: #b74568!important;
+    border: 0!important;
+    border-radius: 2px!important;
+    padding: 3px 6px!important
+}
+.fancy-toggle-button .remove:hover,
+.RESshortcutside.remove:hover,
+.RESDashboardToggle.remove:hover,
+.RESDashboardToggle.remove:hover {
+    background-color: #7EF0F2!important
+}
+.fancy-toggle-button .add:hover,
+.RESshortcutside:hover,
+.RESDashboardToggle:hover {
+    background-color: #7EF0F2!important
+}
+.user .userkarma {
+    border: none
+}
+.linkflairlabel {
+    background-color: #48ba98;
+    /*color:#fff;*/
+    
+    border: none;
+    padding-left: 4px;
+    padding-right: 4px
+}
+.linkflair-food .linkflairlabel {
+    background-color: #E09014
+}
+.linkflair-meta .linkflairlabel {
+    background-color: #5081B8
+}
+.linkflair-spoiler .linkflairlabel {
+    background-color: #b74568
+}
+#sr-header-area a:hover {
+    color: #9188F5
+}
+#sr-header-area a {
+    transition: .5s
+}
+#sr-header-area {
+    background-color: #FFF;
+    white-space: nowrap;
+    text-transform: lowercase;
+    border-bottom: 1px solid gray;
+    font-size: 90%;
+    height: 18px;
+    line-height: 18px
+}
+#sr-header-area .drop-choices.srdrop {
+    margin-top: 0;
+    margin-left: 5px;
+    z-index: 400
+}
+
+/*******************************BACKGROUND*******************************/
+
+body {
+background:url(%%background%%) no-repeat fixed center center transparent;
+background-color: #eee;
+}
+
+
+/*******************************MEME ARROWS*******************************/
+
+
+/*Comment Greentext*/
+.comment blockquote {
+ border: none;
+ margin: 0;
+ padding: 0;
+ color: seagreen;
+}
+
+.comment blockquote p:before {
+ content:'> ';
+}
+
+/****************************MAIL POP UP****************************/
+
+#mail {
+top: 2px;
+overflow: visible;
+}
+
+
+#mail.havemail:before {
+position: fixed;
+padding: 0px 0px 0px 0px;
+bottom: 24px;
+z-index: 998 !important;
+background-color: transparent;
+border-radius: 2px;
+color: #fff;
+width: 276px;
+height: 200px;
+left: 24px;
+content: " ";
+text-indent: 0px;
+font-size: 14px;
+font-family: arial, sans-serif;
+line-height: 1;
+-webkit-transform:translateY(400px);
+transform:translateY(400px);
+background-image: url(%%Mail%%);
+transition: background-color 0.25s ease, box-shadow 0.25s ease;
+background-position: 0px 0px;
+background-repeat: no-repeat;
+}
+
+
+#mail.havemail:hover:before {
+background-color: transparent;
+}
+
+#mail.havemail:active:before {
+background-color: transparent;
+}
+
+#mail.havemail:before {
+animation-name: toast;
+animation-duration: 5s;
+animation-iteration-count: 1;
+animation-timing-function: ease;
+
+-webkit-animation-name: toast;
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: ease;
+}
+
+#mail.havemail:hover:before {
+-webkit-animation-play-state: paused;
+-moz-animation-play-state: paused;
+-o-animation-play-state: paused;
+animation-play-state: paused;
+}
+
+@-webkit-keyframes toast {
+0%  	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+20%  	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+25%	{transform:translateY(-8px);	-webkit-transform:translateY(-8px);	opacity: 1;}
+27%	{transform:translateY(00px);	-webkit-transform:translateY(00px);	opacity: 1;}
+92%	{transform:translateY(00px);	-webkit-transform:translateY(00px);	opacity: 1;}
+97%	{transform:translateY(16px);	-webkit-transform:translateY(16px);	opacity: 1;}
+100%	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+}
+
+@-o-keyframes toast {
+0%  	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+20%  	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+25%	{transform:translateY(-8px);	-webkit-transform:translateY(-8px);	opacity: 1;}
+27%	{transform:translateY(00px);	-webkit-transform:translateY(00px);	opacity: 1;}
+92%	{transform:translateY(00px);	-webkit-transform:translateY(00px);	opacity: 1;}
+97%	{transform:translateY(16px);	-webkit-transform:translateY(16px);	opacity: 1;}
+100%	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+}
+
+
+@-moz-keyframes toast {
+0%  	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+20%  	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+25%	{transform:translateY(-8px);	-webkit-transform:translateY(-8px);	opacity: 1;}
+27%	{transform:translateY(00px);	-webkit-transform:translateY(00px);	opacity: 1;}
+92%	{transform:translateY(00px);	-webkit-transform:translateY(00px);	opacity: 1;}
+97%	{transform:translateY(16px);	-webkit-transform:translateY(16px);	opacity: 1;}
+100%	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+			}
+
+
+@keyframes toast {
+0%  	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+20%  	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+25%	{transform:translateY(-8px);	-webkit-transform:translateY(-8px);	opacity: 1;}
+27%	{transform:translateY(00px);	-webkit-transform:translateY(00px);	opacity: 1;}
+92%	{transform:translateY(00px);	-webkit-transform:translateY(00px);	opacity: 1;}
+97%	{transform:translateY(16px);	-webkit-transform:translateY(16px);	opacity: 1;}
+100%	{transform:translateY(76px);	-webkit-transform:translateY(76px);	opacity: 0;}
+}
+
+/*===============================PROGRESS===============================*/
+
+
+/*     ICONS (SIDEBAR IMAGES)     */
+
+.side a[href="#sidebarrules"]::before { 
+     content: url(%%sidebar-rules%%); 
+     margin: auto;
+     background: no-repeat;
+     display: block;
+}
+
+.side a[href="#sidebarWT"]::before { 
+     content: url(%%sidebar-weeklythreads%%); 
+     margin: auto;
+     background: no-repeat;
+     display: block;
+}
+
+.side a[href="#sidebarlinks"]::before { 
+     content: url(%%sidebar-links%%); 
+     margin: auto;
+     background: no-repeat;
+     display: block;
+}
+
+.side a[href="#sidebarguides"]::before{ 
+     content: url(%%sidebar-guides%%); 
+     margin: auto;
+     background: no-repeat;
+     display: block;
+}
+
+.side a[href="#sidebardiscord"]::before{ 
+     content: url(%%sidebar-discord%%); 
+     margin: auto;
+     background: no-repeat;
+     display: block;
+}
+
+.side a[href="https://discord.gg/grandorder"] {
+    display:block;
+    margin-left: 50px;
+    height:143px;
+    width:150px;
+    background:url(%%swirl%%) no-repeat 0 -2px;
+}
+
+.side a[href="https://discord.gg/grandorder"]:hover {
+background-position:0 0;width:150px;height:143px;-webkit-animation:spin .1s linear infinite;-moz-animation:spin .1s linear infinite;animation:spin .1s linear infinite}@-moz-keyframes spin{100%{-moz-transform:rotate(360deg)}}@-webkit-keyframes spin{100%{-webkit-transform:rotate(360deg)}}@keyframes spin{100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}
+
+
+
+/*     VOTES     */
+
+
+.res-nightmode .arrow.up, .arrow.up { background: url(%%votesgo%%) -5px -38px;
+width: 23px;
+height: 23px;
+}
+.res-nightmode .arrow.down, .arrow.down { background: url(%%votesgo%%) -5px -38px;
+width: 23px;
+height: 23px;
+} 
+.res-nightmode .arrow.upmod, .arrow.upmod { background: url(%%votesgo%%) -38px -5px;
+width: 23px;
+height: 23px;
+} 
+.res-nightmode .arrow.downmod, .arrow.downmod { background: url(%%votesgo%%) -5px -5px;
+width: 23px;
+height: 23px;
+} 
+
+.res-nightmode .arrow.up:hover {
+    background-position: -5px -38px;
+}
+
+.res-nightmode .arrow.down:hover {
+    background-position: -5px -38px;
+}
+
+
+/*===============================PSA===============================*/
+
+.md ol {
+    list-style: none;
+}
+
+.side ol li {
+   display: inline.block;
+   float: left;
+}
+
+.md ul li, .md ol li {
+   padding: 4px 8px;
+   border-radius: 2px;
+}
+
+.side .md > ol {
+    left: 18px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 157px;
+    z-index: 100;
+}
+
+.side .md > ol:last-child {
+    left: 50px;
+}
+
+.side .md > ol li > p {
+    margin: 3px 0
+}
+.side .md > ol li a {
+    background-color: #040404;
+    border: 1px solid #7EF0F2;
+    border-radius: 2px;
+    box-shadow: 0 0 4px #000;
+    color: #BAFFF7;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 3px 6px 3px 0;
+    text-decoration: none;
+}
+.side .md > ol li a:before {
+    background-color: #030d0d;
+    margin: 0 4px 0 0;
+    padding: 3px 6px;
+    content: "PSA";
+    color: #7EF0F2;
+    font-weight: 700
+}
+.side .md > ol li a:hover {
+    background-color: #0C2E2D;
+    border-color: #9EB8EA;
+    color: #fff
+}
+.side .md > ol li strong a {
+    background-color: #140404;
+    border: 2px solid #A00C0C;
+    color: red
+}
+.side .md > ol li strong a:before {
+    background-color: #A00C0C;
+    color: #140404;
+    content: "Important"
+}
+.side .md > ol li strong a:hover {
+    background-color: #A00C0C;
+    border-color: #D00C0C
+}
+.side .md > ol li em a:before {
+    background-color: #3D5876;
+    color: #FFF;
+    content: "Live Event";
+    font-style: normal
+}
+.side .md > ol li em a {
+    background-color: #122740;
+    border: 2px solid #3D5876;
+    color: #D8E3FF;
+    font-style: normal
+}
+.side .md > ol li em a:hover {
+    background-color: #3D5876;
+    border-color: #52789E
+}
+
+/*******************************USERNAME*******************************/
+
+a.author[href$="user/Fou-kun"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/Fou-kun"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(207, 179, 226);
+font-family:verdana;
+font-weight:bold!important;
+content:" Fou "}
+
+a.author[href$="user/Kamentator"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/Kamentator"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(103, 127, 234);
+font-family:verdana;
+font-weight:bold!important;
+content:" Shiki "}
+
+a.author[href$="user/WroughtIronHero"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/WroughtIronHero"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(206,137,94);
+font-family:verdana;
+font-weight:bold!important;
+content:" Jeanne d'Arc "}
+
+a.author[href$="user/FuzzyViper"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/FuzzyViper"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(229, 193, 0);
+font-family:verdana;
+font-weight:bold!important;
+content:" Gilgamesh "}
+
+a.author[href$="user/nebulaesky"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/nebulaesky"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(31, 221, 34);
+font-family:verdana;
+font-weight:bold!important;
+content:" Enkidu "}
+
+a.author[href$="user/BlameLib"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/BlameLib"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(255, 82, 30);
+font-family:verdana;
+font-weight:bold!important;
+content:" Rama "}
+
+a.author[href$="user/Chair_Aznable"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/Chair_Aznable"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(196, 15, 15);
+font-family:verdana;
+font-weight:bold!important;
+content:" Nero "}
+
+a.author[href$="user/AutoModerator"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/AutoModerator"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(145, 102, 184);
+font-family:verdana;
+font-weight:bold!important;
+content:" BB "}
+
+a.author[href$="user/Mashu_Kyrielite"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/Mashu_Kyrielite"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:#ae8b9d;
+font-family:verdana;
+font-weight:bold!important;
+content:" Mashu "}
+
+a.author[href$="user/Holmes_Flairbot"]{visibility:hidden;
+font-size:0px;
+content:""}
+a.author[href$="user/Holmes_Flairbot"]:before{visibility:visible;
+font-size:12px!important;
+background-color:none;
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+margin:0px 0px 50px 0px;
+color:rgb(36, 70, 93);
+font-family:verdana;
+font-weight:bold!important;
+content:" Sherlock "}
+
+/*******************************USER FLAIR*******************************/
+
+
+/*
+.flairselector .customizer {
+display: none !important;
+}
+
+
+
+.flair {
+border: none !important;
+padding:0px;
+background: url(%%ss%%) no-repeat -9999px -9999px;
+display:inline-block;
+vertical-align: top;
+background-color:transparent;
+}
+*/
+
+.flair {
+    background-repeat: no-repeat;
+    padding: 0;
+    overflow: hidden;
+    text-indent: 34px;
+    font-size: 10px;
+    line-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    border: none!important;
+    transition: all .3s ease-out;
+    transition-delay: .15s;
+    position: relative;
+    color: rgba(0, 0, 0, 0)!important;
+    width: 50px;
+    height: 50px;
+}
+.flair:hover {
+    overflow: visible;
+    color: rgba(0, 0, 0, 0)
+}
+.flair[title]:after {
+    content: attr(title);
+    position: absolute;
+    color: #F4FAFF;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    text-transform: uppercase;
+    top: 0;
+    left: -10px;
+    background: #fff;
+    box-shadow: 0 1px 10px #fff;
+    padding: 0 5px;
+    border-radius: 3px;
+    white-space: nowrap;
+    visibility: hidden;
+    pointer-events: none;
+    text-indent: 0;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    transform: scale(0.8, 0.4)
+}
+.flair[title]:before {
+    bottom: 8px;
+    left: 30px!important;
+    box-shadow: 0 0 0 transparent!important;
+    border: solid rgba(0, 0, 0, 0);
+    content: " ";
+    opacity: 0;
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-width: 8px;
+    margin-left: -10px;
+    background-color: transparent!important
+}
+.flair[title]:hover:before,
+.flair[title]:hover:after,
+.flair[title]:active:before,
+.flair[title]:active:after {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1);
+    background: #9EB8EA;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    box-shadow: 0 1px 0 rgba(46, 46, 44, 0.35);
+    left: 35px;
+    transition: all .3s cubic-bezier(0.100, 4.235, 0.215, 0.195) .05s, background-color .45s cubic-bezier(0.100, 0.235, 0.215, 1.195) .1s, border-right-color .45s cubic-bezier(0.100, 0.235, 0.215, 1.195) .1s
+}
+.flair[title=""]:hover:before {
+    border-right-color: transparent;
+    opacity: 0
+}
+.entry {
+    margin-left: 3px;
+    opacity: 1
+}
+.res-nightmode .flair {
+    background-color: transparent
+}
+.link .flair,
+.entry .tagline .flair {
+    float: left;
+	background-color: transparent;
+}
+
+*[class*="flair-saber-"]{
+	background: url(%%Saber%%);
+}
+.flair-saber-Altera {
+    background-position: -1px -1px;
+}
+.flair-saber-Arthur1 {
+    background-position: -53px -1px;
+}
+.flair-saber-Arthur2 {
+    background-position: -105px -1px;
+}
+.flair-saber-Artoria {
+    background-position: -157px -1px;
+}
+.flair-saber-Artoria1 {
+    background-position: -209px -1px;
+}
+.flair-saber-ArtoriaLily {
+    background-position: -261px -1px;
+}
+.flair-saber-Bedivere {
+    background-position: -1px -53px;
+}
+.flair-saber-Benienma {
+    background-position: -53px -53px;
+}
+.flair-saber-Caesar {
+    background-position: -105px -53px;
+}
+.flair-saber-Deon {
+    background-position: -157px -53px;
+}
+.flair-saber-DiarmuidSaber {
+    background-position: -209px -53px;
+}
+.flair-saber-Fergus {
+    background-position: -261px -53px;
+}
+.flair-saber-FranSaber {
+    background-position: -1px -105px;
+}
+.flair-saber-Gawain {
+    background-position: -53px -105px;
+}
+.flair-saber-GillesSaber {
+    background-position: -105px -105px;
+}
+.flair-saber-Lakshmibai {
+    background-position: -157px -105px;
+}
+.flair-saber-LancelotSaber {
+    background-position: -209px -105px;
+}
+.flair-saber-Lanling1 {
+    background-position: -261px -105px;
+}
+.flair-saber-Lanling2 {
+    background-position: -1px -157px;
+}
+.flair-saber-LizSaber {
+    background-position: -53px -157px;
+}
+.flair-saber-MHX {
+    background-position: -105px -157px;
+}
+.flair-saber-MedbSaber {
+    background-position: -157px -157px;
+}
+.flair-saber-Mordred1 {
+    background-position: -209px -157px;
+}
+.flair-saber-Mordred2 {
+    background-position: -261px -157px;
+}
+.flair-saber-Musashi {
+    background-position: -1px -209px;
+}
+.flair-saber-Nero {
+    background-position: -53px -209px;
+}
+.flair-saber-NeroBloomer {
+    background-position: -105px -209px;
+}
+.flair-saber-NeroBride {
+    background-position: -157px -209px;
+}
+.flair-saber-Okita {
+    background-position: -209px -209px;
+}
+.flair-saber-OkitaFeet {
+    background-position: -261px -209px;
+}
+.flair-saber-Rama {
+    background-position: -1px -261px;
+}
+.flair-saber-Salter {
+    background-position: -53px -261px;
+}
+.flair-saber-ShikiSaber {
+    background-position: -105px -261px;
+}
+.flair-saber-Siegfried {
+    background-position: -157px -261px;
+}
+.flair-saber-Sigurd1 {
+    background-position: -209px -261px;
+}
+.flair-saber-Sigurd2 {
+    background-position: -261px -261px;
+}
+.flair-saber-Suzuka {
+    background-position: -313px -1px;
+}
+.flair-saber-Yagyu {
+    background-position: -313px -53px;
+}
+*[class*="flair-saberaf"]{
+    background: url(%%SaberAF%%);
+}
+.flair-saberaf-AhogeAF {
+    background-position: -1px -1px;
+}
+.flair-saberaf-AlteraAF {
+    background-position: -53px -1px;
+}
+.flair-saberaf-ArthurAF {
+    background-position: -105px -1px;
+}
+.flair-saberaf-ArtoriaAlterAF {
+    background-position: -157px -1px;
+}
+.flair-saberaf-ArtoriaLilyAF {
+    background-position: -209px -1px;
+}
+.flair-saberaf-ArtoriaAF {
+    background-position: -1px -53px;
+}
+.flair-saberaf-BedivereAF {
+    background-position: -53px -53px;
+}
+.flair-saberaf-CaesarAF {
+    background-position: -105px -53px;
+}
+.flair-saberaf-DeonAF {
+    background-position: -157px -53px;
+}
+.flair-saberaf-FergusAF {
+    background-position: -209px -53px;
+}
+.flair-saberaf-FranSaberAF {
+    background-position: -1px -105px;
+}
+.flair-saberaf-GawainAF {
+    background-position: -53px -105px;
+}
+.flair-saberaf-GillesSaberAF {
+    background-position: -105px -105px;
+}
+.flair-saberaf-LancelotSaberAF {
+    background-position: -157px -105px;
+}
+.flair-saberaf-LizSaberAF {
+    background-position: -209px -105px;
+}
+.flair-saberaf-MHXAF {
+    background-position: -1px -157px;
+}
+.flair-saberaf-MordredAF {
+    background-position: -53px -157px;
+}
+.flair-saberaf-MusashiAF {
+    background-position: -105px -157px;
+}
+.flair-saberaf-NeroBrideAF {
+    background-position: -157px -157px;
+}
+.flair-saberaf-NeroAF {
+    background-position: -209px -157px;
+}
+.flair-saberaf-OkitaAF {
+    background-position: -1px -209px;
+}
+.flair-saberaf-RamaAF {
+    background-position: -53px -209px;
+}
+.flair-saberaf-ShikiSaberAF {
+    background-position: -105px -209px;
+}
+.flair-saberaf-SiegfriedAF {
+    background-position: -157px -209px;
+}
+.flair-saberaf-SuzukaAF {
+    background-position: -209px -209px;
+}
+.flair-saberaf-YagyuAF {
+    background-position: -261px -1px;
+}
+*[class*="flair-archer-"]{
+    background: url(%%Archer%%);
+}
+.flair-archer-AlteraArcher {
+    background-position: -5px -5px;
+}
+.flair-archer-AnneArcher {
+    background-position: -65px -5px;
+}
+.flair-archer-Arash {
+    background-position: -125px -5px;
+}
+.flair-archer-Arjuna {
+    background-position: -185px -5px;
+}
+.flair-archer-ArtoriaArcher {
+    background-position: -245px -5px;
+}
+.flair-archer-Ashwatthama2 {
+    background-position: -5px -65px;
+}
+.flair-archer-Atalanta {
+    background-position: -65px -65px;
+}
+.flair-archer-Billy {
+    background-position: -125px -65px;
+}
+.flair-archer-Chiron {
+    background-position: -185px -65px;
+}
+.flair-archer-David {
+    background-position: -245px -65px;
+}
+.flair-archer-Emiya {
+    background-position: -5px -125px;
+}
+.flair-archer-EmiyaAlter {
+    background-position: -65px -125px;
+}
+.flair-archer-Euryale {
+    background-position: -125px -125px;
+}
+.flair-archer-Fujino {
+    background-position: -185px -125px;
+}
+.flair-archer-Gilgamesh {
+    background-position: -245px -125px;
+}
+.flair-archer-HelenaArcher {
+    background-position: -5px -185px;
+}
+.flair-archer-Ishtar {
+    background-position: -65px -185px;
+}
+.flair-archer-JeanneArcher {
+    background-position: -125px -185px;
+}
+.flair-archer-Kogil {
+    background-position: -185px -185px;
+}
+.flair-archer-Kuro {
+    background-position: -245px -185px;
+}
+.flair-archer-MaryArcher {
+    background-position: -5px -245px;
+}
+.flair-archer-Moriarty {
+    background-position: -65px -245px;
+}
+.flair-archer-Napoleon {
+    background-position: -125px -245px;
+}
+.flair-archer-Nobu {
+    background-position: -185px -245px;
+}
+.flair-archer-Orion1 {
+    background-position: -245px -245px;
+}
+.flair-archer-Orion2 {
+    background-position: -305px -5px;
+}
+.flair-archer-Robin1 {
+    background-position: -305px -65px;
+}
+.flair-archer-Robin2 {
+    background-position: -305px -125px;
+}
+.flair-archer-Tesla {
+    background-position: -305px -185px;
+}
+.flair-archer-Tomoe {
+    background-position: -305px -245px;
+}
+.flair-archer-Touta {
+    background-position: -5px -305px;
+}
+.flair-archer-Tristan {
+    background-position: -65px -305px;
+}
+.flair-archer-William {
+    background-position: -125px -305px;
+}
+*[class*="flair-archeraf-"]{
+    background: url(%%ArcherAF%%);
+}
+.flair-archeraf-AlteraArcherAF {
+    background-position: -1px -1px;
+}
+.flair-archeraf-AnneArcherAF {
+    background-position: -53px -1px;
+}
+.flair-archeraf-ArashAF {
+    background-position: -105px -1px;
+}
+.flair-archeraf-ArtoriaArcherAF1 {
+    background-position: -157px -1px;
+}
+.flair-archeraf-ArtoriaArcherAF2 {
+    background-position: -209px -1px;
+}
+.flair-archeraf-ArjunaAF {
+    background-position: -1px -53px;
+}
+.flair-archeraf-AtalantaAF {
+    background-position: -53px -53px;
+}
+.flair-archeraf-BillyAF {
+    background-position: -105px -53px;
+}
+.flair-archeraf-DavidAF {
+    background-position: -157px -53px;
+}
+.flair-archeraf-EmiyaAlterAF {
+    background-position: -209px -53px;
+}
+.flair-archeraf-EmiyaAF {
+    background-position: -1px -105px;
+}
+.flair-archeraf-EreshkigalAF2 {
+    background-position: -53px -105px;
+}
+.flair-archeraf-EuryaleAF {
+    background-position: -105px -105px;
+}
+.flair-archeraf-FujinaAF {
+    background-position: -157px -105px;
+}
+.flair-archeraf-GilgameshAF {
+    background-position: -209px -105px;
+}
+.flair-archeraf-HelenaArcherAF {
+    background-position: -1px -157px;
+}
+.flair-archeraf-IshtarAF2 {
+    background-position: -53px -157px;
+}
+.flair-archeraf-KogilAF {
+    background-position: -105px -157px;
+}
+.flair-archeraf-KuroAF {
+    background-position: -157px -157px;
+}
+.flair-archeraf-MaryArcherAF {
+    background-position: -209px -157px;
+}
+.flair-archeraf-MoriartyAF {
+    background-position: -1px -209px;
+}
+.flair-archeraf-NobuAF {
+    background-position: -53px -209px;
+}
+.flair-archeraf-OrionAF1 {
+    background-position: -105px -209px;
+}
+.flair-archeraf-OrionAF2 {
+    background-position: -157px -209px;
+}
+.flair-archeraf-RobinAF {
+    background-position: -209px -209px;
+}
+.flair-archeraf-TeslaAF {
+    background-position: -261px -1px;
+}
+.flair-archeraf-TomoeAF {
+    background-position: -261px -53px;
+}
+.flair-archeraf-ToudaAF {
+    background-position: -261px -105px;
+}
+.flair-archeraf-TristanAF {
+    background-position: -261px -157px;
+}
+*[class*="flair-lancer-"]{
+    background: url(%%Lancer%%);
+}
+.flair-lancer-Benkei {
+    background-position: 0 0;
+}
+.flair-lancer-Bradamante {
+    background-position: -50px 0;
+}
+.flair-lancer-Bryn {
+    background-position: -100px 0;
+}
+.flair-lancer-Cu {
+    background-position: -150px 0;
+}
+.flair-lancer-CuProto {
+    background-position: -200px 0;
+}
+.flair-lancer-Diarmuid {
+    background-position: -250px 0;
+}
+.flair-lancer-Enkidu {
+    background-position: 0 -50px;
+}
+.flair-lancer-Ereshkigal {
+    background-position: -50px -50px;
+}
+.flair-lancer-Fionn {
+    background-position: -100px -50px;
+}
+.flair-lancer-Hector {
+    background-position: -150px -50px;
+}
+.flair-lancer-IbarakiLancer {
+    background-position: -200px -50px;
+}
+.flair-lancer-Inshun1 {
+    background-position: -250px -50px;
+}
+.flair-lancer-Inshun2 {
+    background-position: 0 -100px;
+}
+.flair-lancer-Jaguar {
+    background-position: -50px -100px;
+}
+.flair-lancer-JeanneLily {
+    background-position: -100px -100px;
+}
+.flair-lancer-Karna {
+    background-position: -150px -100px;
+}
+.flair-lancer-KiyoLancer {
+    background-position: -200px -100px;
+}
+.flair-lancer-LAlter1 {
+    background-position: -250px -100px;
+}
+.flair-lancer-LAlter2 {
+    background-position: 0 -150px;
+}
+.flair-lancer-LArtoria1 {
+    background-position: -50px -150px;
+}
+.flair-lancer-LArtoria2 {
+    background-position: -100px -150px;
+}
+.flair-lancer-Leonidas1 {
+    background-position: -150px -150px;
+}
+.flair-lancer-Leonidas2 {
+    background-position: -200px -150px;
+}
+.flair-lancer-Li {
+    background-position: -250px -150px;
+}
+.flair-lancer-Liang {
+    background-position: 0 -200px;
+}
+.flair-lancer-Liz {
+    background-position: -50px -200px;
+}
+.flair-lancer-MedusaLancer {
+    background-position: -100px -200px;
+}
+.flair-lancer-MedusaLancer1 {
+    background-position: -150px -200px;
+}
+.flair-lancer-Nezha {
+    background-position: -200px -200px;
+}
+.flair-lancer-Parvati {
+    background-position: -250px -200px;
+}
+.flair-lancer-RaikouLancer {
+    background-position: 0 -250px;
+}
+.flair-lancer-Roma {
+    background-position: -50px -250px;
+}
+.flair-lancer-Scathach {
+    background-position: -100px -250px;
+}
+.flair-lancer-TamaLancer {
+    background-position: -150px -250px;
+}
+.flair-lancer-Valkyrie1 {
+    background-position: -200px -250px;
+}
+.flair-lancer-Valkyrie2 {
+    background-position: -250px -250px;
+}
+.flair-lancer-Valkyrie3 {
+    background-position: -300px 0;
+}
+.flair-lancer-VladExtra {
+    background-position: -300px -50px;
+}
+*[class*="flair-lanceraf-"]{
+    background: url(%%LancerAF%%);
+}
+.flair-lanceraf-BenkeiAF {
+    background-position: -1px -1px;
+}
+.flair-lanceraf-BrynAF {
+    background-position: -53px -1px;
+}
+.flair-lanceraf-CuProtoAF {
+    background-position: -105px -1px;
+}
+.flair-lanceraf-CuAF {
+    background-position: -157px -1px;
+}
+.flair-lanceraf-DiarmuidAF {
+    background-position: -209px -1px;
+}
+.flair-lanceraf-EnkiduAF {
+    background-position: -1px -53px;
+}
+.flair-lanceraf-EreshkigalAF {
+    background-position: -53px -53px;
+}
+.flair-lanceraf-FionnAF {
+    background-position: -105px -53px;
+}
+.flair-lanceraf-HectorAF {
+    background-position: -157px -53px;
+}
+.flair-lanceraf-InshunAF {
+    background-position: -209px -53px;
+}
+.flair-lanceraf-IshtarAF {
+    background-position: -1px -105px;
+}
+.flair-lanceraf-JaguarAF {
+    background-position: -53px -105px;
+}
+.flair-lanceraf-JeanneLilyAF {
+    background-position: -105px -105px;
+}
+.flair-lanceraf-KarnaAF {
+    background-position: -157px -105px;
+}
+.flair-lanceraf-KiyoLancerAF {
+    background-position: -209px -105px;
+}
+.flair-lanceraf-LAlterAF {
+    background-position: -1px -157px;
+}
+.flair-lanceraf-LArtoriaAF {
+    background-position: -53px -157px;
+}
+.flair-lanceraf-LeonidasAF {
+    background-position: -105px -157px;
+}
+.flair-lanceraf-LiAF {
+    background-position: -157px -157px;
+}
+.flair-lanceraf-LizAF {
+    background-position: -209px -157px;
+}
+.flair-lanceraf-MedusaLilyAF {
+    background-position: -1px -209px;
+}
+.flair-lanceraf-NezhaAF {
+    background-position: -53px -209px;
+}
+.flair-lanceraf-ParvatiAF {
+    background-position: -105px -209px;
+}
+.flair-lanceraf-RaikouLancerAF {
+    background-position: -157px -209px;
+}
+.flair-lanceraf-RomaAF {
+    background-position: -209px -209px;
+}
+.flair-lanceraf-ScathAF {
+    background-position: -261px -1px;
+}
+.flair-lanceraf-TamaLancerAF {
+    background-position: -261px -53px;
+}
+.flair-lanceraf-VladExtraAF {
+    background-position: -261px -105px;
+}
+*[class*="flair-rider-"]{
+    background: url(%%Rider%%);
+}
+.flair-rider-Achilles {
+    background-position: -1px -1px;
+}
+.flair-rider-Alexander {
+    background-position: -53px -1px;
+}
+.flair-rider-Anne {
+    background-position: -105px -1px;
+}
+.flair-rider-Astolfo {
+    background-position: -157px -1px;
+}
+.flair-rider-Blackbeard {
+    background-position: -209px -1px;
+}
+.flair-rider-Boudica {
+    background-position: -1px -53px;
+}
+.flair-rider-Columbus {
+    background-position: -53px -53px;
+}
+.flair-rider-Drake {
+    background-position: -105px -53px;
+}
+.flair-rider-George {
+    background-position: -157px -53px;
+}
+.flair-rider-IshtarRider {
+    background-position: -209px -53px;
+}
+.flair-rider-Iskandar {
+    background-position: -1px -105px;
+}
+.flair-rider-Ivan {
+    background-position: -53px -105px;
+}
+.flair-rider-KintokiRider {
+    background-position: -105px -105px;
+}
+.flair-rider-MaidAlter {
+    background-position: -157px -105px;
+}
+.flair-rider-Marie {
+    background-position: -209px -105px;
+}
+.flair-rider-Martha {
+    background-position: -1px -157px;
+}
+.flair-rider-Mary {
+    background-position: -53px -157px;
+}
+.flair-rider-Medb {
+    background-position: -105px -157px;
+}
+.flair-rider-MedbWarden {
+    background-position: -157px -157px;
+}
+.flair-rider-Medusa {
+    background-position: -209px -157px;
+}
+.flair-rider-MordredRider {
+    background-position: -1px -209px;
+}
+.flair-rider-Oryuu {
+    background-position: -53px -209px;
+}
+.flair-rider-Ozy {
+    background-position: -105px -209px;
+}
+.flair-rider-Quetz {
+    background-position: -157px -209px;
+}
+.flair-rider-RedHare {
+    background-position: -209px -209px;
+}
+.flair-rider-Reines {
+    background-position: -261px -1px;
+}
+.flair-rider-Ryouma {
+    background-position: -261px -53px;
+}
+.flair-rider-SantaAlter {
+    background-position: -261px -105px;
+}
+.flair-rider-Ushi {
+    background-position: -261px -157px;
+}
+*[class*="flair-rideraf-"]{
+    background: url(%%RiderAF%%);
+}
+.flair-rideraf-AlexanderAF {
+    background-position: -1px -1px;
+}
+.flair-rideraf-AnneAF {
+    background-position: -53px -1px;
+}
+.flair-rideraf-AstolfoAF {
+    background-position: -105px -1px;
+}
+.flair-rideraf-BlackbeardAF {
+    background-position: -157px -1px;
+}
+.flair-rideraf-BoudicaAF {
+    background-position: -1px -53px;
+}
+.flair-rideraf-ColumbusAF {
+    background-position: -53px -53px;
+}
+.flair-rideraf-DrakeAF {
+    background-position: -105px -53px;
+}
+.flair-rideraf-GeorgeAF {
+    background-position: -157px -53px;
+}
+.flair-rideraf-IshtarRiderAF {
+    background-position: -1px -105px;
+}
+.flair-rideraf-IskandarAF {
+    background-position: -53px -105px;
+}
+.flair-rideraf-IvanGrave {
+    background-position: -105px -105px;
+}
+.flair-rideraf-KintokiRiderAF {
+    background-position: -157px -105px;
+}
+.flair-rideraf-MaidAlterAF {
+    background-position: -1px -157px;
+}
+.flair-rideraf-MarieAF {
+    background-position: -53px -157px;
+}
+.flair-rideraf-MarthaAF {
+    background-position: -105px -157px;
+}
+.flair-rideraf-MaryAF {
+    background-position: -157px -157px;
+}
+.flair-rideraf-MedbAF {
+    background-position: -209px -1px;
+}
+.flair-rideraf-MedusaAF {
+    background-position: -209px -53px;
+}
+.flair-rideraf-MordredRiderAF {
+    background-position: -209px -105px;
+}
+.flair-rideraf-OzyAF {
+    background-position: -209px -157px;
+}
+.flair-rideraf-QuetzAF {
+    background-position: -1px -209px;
+}
+.flair-rideraf-SantaAlterAF {
+    background-position: -53px -209px;
+}
+.flair-rideraf-UshiAF {
+    background-position: -105px -209px;
+}
+*[class*="flair-caster-"]{
+    background: url(%%Caster%%);
+}
+.flair-caster-Anastasia {
+    background-position: -1px -1px;
+}
+.flair-caster-Asclepius1 {
+    background-position: -53px -1px;
+}
+.flair-caster-Asclepius2 {
+    background-position: -105px -1px;
+}
+.flair-caster-Avicebron {
+    background-position: -157px -1px;
+}
+.flair-caster-Babbage {
+    background-position: -209px -1px;
+}
+.flair-caster-Circe {
+    background-position: -261px -1px;
+}
+.flair-caster-CuCas {
+    background-position: -1px -53px;
+}
+.flair-caster-Davinci {
+    background-position: -53px -53px;
+}
+.flair-caster-Edison {
+    background-position: -105px -53px;
+}
+.flair-caster-Geronimo {
+    background-position: -157px -53px;
+}
+.flair-caster-GilCas {
+    background-position: -209px -53px;
+}
+.flair-caster-GillesCas {
+    background-position: -261px -53px;
+}
+.flair-caster-Hans {
+    background-position: -1px -105px;
+}
+.flair-caster-Helena {
+    background-position: -53px -105px;
+}
+.flair-caster-Illya {
+    background-position: -105px -105px;
+}
+.flair-caster-Irisviel {
+    background-position: -157px -105px;
+}
+.flair-caster-LizCas {
+    background-position: -209px -105px;
+}
+.flair-caster-MarieCas {
+    background-position: -261px -105px;
+}
+.flair-caster-Medea {
+    background-position: -1px -157px;
+}
+.flair-caster-MedeaLily {
+    background-position: -53px -157px;
+}
+.flair-caster-Meph {
+    background-position: -105px -157px;
+}
+.flair-caster-Merlin {
+    background-position: -157px -157px;
+}
+.flair-caster-MerlinHood {
+    background-position: -209px -157px;
+}
+.flair-caster-Miyu {
+    background-position: -261px -157px;
+}
+.flair-caster-Mozart {
+    background-position: -1px -209px;
+}
+.flair-caster-Murasaki {
+    background-position: -53px -209px;
+}
+.flair-caster-NeroCas {
+    background-position: -105px -209px;
+}
+.flair-caster-Nitocris {
+    background-position: -157px -209px;
+}
+.flair-caster-Para {
+    background-position: -209px -209px;
+}
+.flair-caster-Rhyme1 {
+    background-position: -261px -209px;
+}
+.flair-caster-Rhyme2 {
+    background-position: -1px -261px;
+}
+.flair-caster-Sche {
+    background-position: -53px -261px;
+}
+.flair-caster-Shakespeare {
+    background-position: -105px -261px;
+}
+.flair-caster-Sheba {
+    background-position: -157px -261px;
+}
+.flair-caster-ShutenCaster {
+    background-position: -209px -261px;
+}
+.flair-caster-Sieg {
+    background-position: -261px -261px;
+}
+.flair-caster-Skadi {
+    background-position: -313px -1px;
+}
+.flair-caster-Solomon {
+    background-position: -313px -53px;
+}
+.flair-caster-Tamamo {
+    background-position: -313px -105px;
+}
+.flair-caster-Waver1 {
+    background-position: -313px -157px;
+}
+.flair-caster-Waver2 {
+    background-position: -313px -209px;
+}
+.flair-caster-Xuanzang {
+    background-position: -313px -261px;
+}
+*[class*="flair-casteraf-"]{
+    background: url(%%CasterAF%%);
+}
+.flair-casteraf-BabbageAF {
+    background-position: -1px -1px;
+}
+.flair-casteraf-CirceAF {
+    background-position: -53px -1px;
+}
+.flair-casteraf-CuCasAF {
+    background-position: -105px -1px;
+}
+.flair-casteraf-DavinciAF {
+    background-position: -157px -1px;
+}
+.flair-casteraf-EdisonAF {
+    background-position: -209px -1px;
+}
+.flair-casteraf-FouAF {
+    background-position: -1px -53px;
+}
+.flair-casteraf-GeronimoAF {
+    background-position: -53px -53px;
+}
+.flair-casteraf-GilCasAF {
+    background-position: -105px -53px;
+}
+.flair-casteraf-GillesCasAF {
+    background-position: -157px -53px;
+}
+.flair-casteraf-HansAF {
+    background-position: -209px -53px;
+}
+.flair-casteraf-HelenaAF {
+    background-position: -1px -105px;
+}
+.flair-casteraf-IllyaAF {
+    background-position: -53px -105px;
+}
+.flair-casteraf-IrisvielAF {
+    background-position: -105px -105px;
+}
+.flair-casteraf-LizCasAF {
+    background-position: -157px -105px;
+}
+.flair-casteraf-MarieCasAF {
+    background-position: -209px -105px;
+}
+.flair-casteraf-MedaLilyAF {
+    background-position: -1px -157px;
+}
+.flair-casteraf-MedeaAF {
+    background-position: -53px -157px;
+}
+.flair-casteraf-MephAF {
+    background-position: -105px -157px;
+}
+.flair-casteraf-MerlinAF {
+    background-position: -157px -157px;
+}
+.flair-casteraf-MozartAF {
+    background-position: -209px -157px;
+}
+.flair-casteraf-NeroCasAF {
+    background-position: -1px -209px;
+}
+.flair-casteraf-NitocrisAF {
+    background-position: -53px -209px;
+}
+.flair-casteraf-ParaAF {
+    background-position: -105px -209px;
+}
+.flair-casteraf-RhymeAF {
+    background-position: -157px -209px;
+}
+.flair-casteraf-ScheAF {
+    background-position: -209px -209px;
+}
+.flair-casteraf-ShakespeareAF {
+    background-position: -261px -1px;
+}
+.flair-casteraf-ShebaAF {
+    background-position: -261px -53px;
+}
+.flair-casteraf-SolomonAF {
+    background-position: -261px -105px;
+}
+.flair-casteraf-TamamoAF {
+    background-position: -261px -157px;
+}
+.flair-casteraf-WaverAF {
+    background-position: -261px -209px;
+}
+.flair-casteraf-XuanzangAF {
+    background-position: -1px -261px;
+}
+*[class*="flair-assassin-"]{
+    background: url(%%Assassin%%);
+}
+.flair-assassin-Carmilla {
+    background-position: -1px -1px;
+}
+.flair-assassin-Chiyome {
+    background-position: -53px -1px;
+}
+.flair-assassin-Cleo {
+    background-position: -105px -1px;
+}
+.flair-assassin-CursedArm {
+    background-position: -157px -1px;
+}
+.flair-assassin-Danzo {
+    background-position: -209px -1px;
+}
+.flair-assassin-EmiyaAss1 {
+    background-position: -261px -1px;
+}
+.flair-assassin-EmiyaAss2 {
+    background-position: -1px -53px;
+}
+.flair-assassin-Gray {
+    background-position: -53px -53px;
+}
+.flair-assassin-Hundred {
+    background-position: -105px -53px;
+}
+.flair-assassin-JH1 {
+    background-position: -157px -53px;
+}
+.flair-assassin-JH2 {
+    background-position: -209px -53px;
+}
+.flair-assassin-Jack {
+    background-position: -261px -53px;
+}
+.flair-assassin-Jing {
+    background-position: -1px -105px;
+}
+.flair-assassin-Kama1 {
+    background-position: -53px -105px;
+}
+.flair-assassin-Kama2 {
+    background-position: -105px -105px;
+}
+.flair-assassin-KingHassan {
+    background-position: -157px -105px;
+}
+.flair-assassin-Kojiro {
+    background-position: -209px -105px;
+}
+.flair-assassin-Kotarou {
+    background-position: -261px -105px;
+}
+.flair-assassin-LiAssassin {
+    background-position: -1px -157px;
+}
+.flair-assassin-Mata {
+    background-position: -53px -157px;
+}
+.flair-assassin-NitoAss1 {
+    background-position: -105px -157px;
+}
+.flair-assassin-NitoAss2 {
+    background-position: -157px -157px;
+}
+.flair-assassin-Okada1 {
+    background-position: -209px -157px;
+}
+.flair-assassin-Okada2 {
+    background-position: -261px -157px;
+}
+.flair-assassin-Osaka {
+    background-position: -1px -209px;
+}
+.flair-assassin-Phantom {
+    background-position: -53px -209px;
+}
+.flair-assassin-Sanson {
+    background-position: -105px -209px;
+}
+.flair-assassin-ScathachAss {
+    background-position: -157px -209px;
+}
+.flair-assassin-Semiramis {
+    background-position: -209px -209px;
+}
+.flair-assassin-Serenity {
+    background-position: -261px -209px;
+}
+.flair-assassin-ShikiAss {
+    background-position: -1px -261px;
+}
+.flair-assassin-Shuten {
+    background-position: -53px -261px;
+}
+.flair-assassin-Stheno {
+    background-position: -105px -261px;
+}
+.flair-assassin-UshiAss {
+    background-position: -157px -261px;
+}
+.flair-assassin-Wu {
+    background-position: -209px -261px;
+}
+.flair-assassin-Yan {
+    background-position: -261px -261px;
+}
+.flair-assassin-Yu {
+    background-position: -313px -1px;
+}
+*[class*="flair-assassinaf-"]{
+    background: url(%%AssassinAF%%);
+}
+.flair-assassinaf-CarmillaAF {
+    background-position: -1px -1px;
+}
+.flair-assassinaf-ChiyomeAF {
+    background-position: -53px -1px;
+}
+.flair-assassinaf-CleoAF {
+    background-position: -105px -1px;
+}
+.flair-assassinaf-CursedArmAF {
+    background-position: -157px -1px;
+}
+.flair-assassinaf-DanzoAF {
+    background-position: -209px -1px;
+}
+.flair-assassinaf-EmiyaAssAF {
+    background-position: -1px -53px;
+}
+.flair-assassinaf-HundredAF {
+    background-position: -53px -53px;
+}
+.flair-assassinaf-JHAF {
+    background-position: -105px -53px;
+}
+.flair-assassinaf-JackAF {
+    background-position: -157px -53px;
+}
+.flair-assassinaf-JingAF {
+    background-position: -209px -53px;
+}
+.flair-assassinaf-KingHassanAF {
+    background-position: -1px -105px;
+}
+.flair-assassinaf-KojiroAF {
+    background-position: -53px -105px;
+}
+.flair-assassinaf-KotarouAF {
+    background-position: -105px -105px;
+}
+.flair-assassinaf-MataAF {
+    background-position: -157px -105px;
+}
+.flair-assassinaf-NitoAssAF {
+    background-position: -209px -105px;
+}
+.flair-assassinaf-OsakaAF {
+    background-position: -1px -157px;
+}
+.flair-assassinaf-PhantomAF {
+    background-position: -53px -157px;
+}
+.flair-assassinaf-SansonAF {
+    background-position: -105px -157px;
+}
+.flair-assassinaf-ScathAssAF {
+    background-position: -157px -157px;
+}
+.flair-assassinaf-SemiramisAF {
+    background-position: -209px -157px;
+}
+.flair-assassinaf-SerenityAF {
+    background-position: -1px -209px;
+}
+.flair-assassinaf-ShikiAssAF {
+    background-position: -53px -209px;
+}
+.flair-assassinaf-ShutenAF {
+    background-position: -105px -209px;
+}
+.flair-assassinaf-SthenoAF {
+    background-position: -157px -209px;
+}
+.flair-assassinaf-WuAF {
+    background-position: -209px -209px;
+}
+.flair-assassinaf-YanAF {
+    background-position: -261px -1px;
+}
+*[class*="flair-berserker-"]{
+    background: url(%%Berserker%%);
+}
+.flair-berserker-ArjunaAlter2 {
+    background-position: 0 0;
+}
+.flair-berserker-Asterios1 {
+    background-position: -50px 0;
+}
+.flair-berserker-Asterios2 {
+    background-position: -100px 0;
+}
+.flair-berserker-AtalantaBer {
+    background-position: -150px 0;
+}
+.flair-berserker-Beowulf {
+    background-position: -200px 0;
+}
+.flair-berserker-Bunyan {
+    background-position: 0 -50px;
+}
+.flair-berserker-Caligula {
+    background-position: -50px -50px;
+}
+.flair-berserker-Chacha {
+    background-position: -100px -50px;
+}
+.flair-berserker-CuAlter {
+    background-position: -150px -50px;
+}
+.flair-berserker-Darius {
+    background-position: -200px -50px;
+}
+.flair-berserker-Eric {
+    background-position: 0 -100px;
+}
+.flair-berserker-Fran {
+    background-position: -50px -100px;
+}
+.flair-berserker-Heracles {
+    background-position: -100px -100px;
+}
+.flair-berserker-Hijikata {
+    background-position: -150px -100px;
+}
+.flair-berserker-Ibaraki {
+    background-position: -200px -100px;
+}
+.flair-berserker-JeanneAlterBer {
+    background-position: 0 -150px;
+}
+.flair-berserker-Kintoki {
+    background-position: -50px -150px;
+}
+.flair-berserker-Kiyohime {
+    background-position: -100px -150px;
+}
+.flair-berserker-Lancelot {
+    background-position: -150px -150px;
+}
+.flair-berserker-Lu {
+    background-position: -200px -150px;
+}
+.flair-berserker-MHXA {
+    background-position: 0 -200px;
+}
+.flair-berserker-Nightingale {
+    background-position: -50px -200px;
+}
+.flair-berserker-NobuBer {
+    background-position: -100px -200px;
+}
+.flair-berserker-Penth {
+    background-position: -150px -200px;
+}
+.flair-berserker-Raikou {
+    background-position: -200px -200px;
+}
+.flair-berserker-Spartacus {
+    background-position: -250px 0;
+}
+.flair-berserker-TamaCat {
+    background-position: -250px -50px;
+}
+.flair-berserker-Vlad {
+    background-position: -250px -100px;
+}
+.flair-berserker-Xiang {
+    background-position: -250px -150px;
+}
+*[class*="flair-berserkeraf-"]{
+    background: url(%%BerserkerAF%%);
+}
+.flair-berserkeraf-AsteriosAF {
+    background-position: -1px -1px;
+}
+.flair-berserkeraf-BeowulfAF {
+    background-position: -53px -1px;
+}
+.flair-berserkeraf-BunyanAF {
+    background-position: -105px -1px;
+}
+.flair-berserkeraf-CaligulaAF {
+    background-position: -157px -1px;
+}
+.flair-berserkeraf-ChachaAF {
+    background-position: -1px -53px;
+}
+.flair-berserkeraf-CuAlterAF {
+    background-position: -53px -53px;
+}
+.flair-berserkeraf-DariusAF {
+    background-position: -105px -53px;
+}
+.flair-berserkeraf-EricAF {
+    background-position: -157px -53px;
+}
+.flair-berserkeraf-FranAF {
+    background-position: -1px -105px;
+}
+.flair-berserkeraf-HeraclesAF {
+    background-position: -53px -105px;
+}
+.flair-berserkeraf-HijikataAF {
+    background-position: -105px -105px;
+}
+.flair-berserkeraf-IbarakiAF {
+    background-position: -157px -105px;
+}
+.flair-berserkeraf-KintokiAF {
+    background-position: -1px -157px;
+}
+.flair-berserkeraf-KiyohimeAF {
+    background-position: -53px -157px;
+}
+.flair-berserkeraf-LancelotAF {
+    background-position: -105px -157px;
+}
+.flair-berserkeraf-LuAF {
+    background-position: -157px -157px;
+}
+.flair-berserkeraf-MHXAAF {
+    background-position: -209px -1px;
+}
+.flair-berserkeraf-NightingaleAF {
+    background-position: -209px -53px;
+}
+.flair-berserkeraf-NobuBerAF {
+    background-position: -209px -105px;
+}
+.flair-berserkeraf-PenthAF {
+    background-position: -209px -157px;
+}
+.flair-berserkeraf-RaikouAF {
+    background-position: -1px -209px;
+}
+.flair-berserkeraf-SpartacusAF {
+    background-position: -53px -209px;
+}
+.flair-berserkeraf-TamaCatAF {
+    background-position: -105px -209px;
+}
+.flair-berserkeraf-VladAF {
+    background-position: -157px -209px;
+}
+*[class*="flair-extra-"]{
+    background: url(%%Extra%%);
+}
+.flair-extra-Abigail1 {
+    background-position: -5px -5px;
+}
+.flair-extra-Abigail2 {
+    background-position: -65px -5px;
+}
+.flair-extra-Amakusa {
+    background-position: -125px -5px;
+}
+.flair-extra-Angra1 {
+    background-position: -185px -5px;
+}
+.flair-extra-Angra2 {
+    background-position: -245px -5px;
+}
+.flair-extra-Angra3 {
+    background-position: -305px -5px;
+}
+.flair-extra-Astraea {
+    background-position: -5px -65px;
+}
+.flair-extra-BB {
+    background-position: -65px -65px;
+}
+.flair-extra-BBSummer {
+    background-position: -125px -65px;
+}
+.flair-extra-Dantes {
+    background-position: -185px -65px;
+}
+.flair-extra-DantesCaptain {
+    background-position: -245px -65px;
+}
+.flair-extra-Ganesha2 {
+    background-position: -305px -65px;
+}
+.flair-extra-Goetia {
+    background-position: -5px -125px;
+}
+.flair-extra-Gorgon {
+    background-position: -65px -125px;
+}
+.flair-extra-Hessian {
+    background-position: -125px -125px;
+}
+.flair-extra-Hokusai1 {
+    background-position: -185px -125px;
+}
+.flair-extra-Hokusai2 {
+    background-position: -245px -125px;
+}
+.flair-extra-Holmes {
+    background-position: -305px -125px;
+}
+.flair-extra-Jeanne1 {
+    background-position: -5px -185px;
+}
+.flair-extra-Jeanne2 {
+    background-position: -65px -185px;
+}
+.flair-extra-JeanneAlter1 {
+    background-position: -125px -185px;
+}
+.flair-extra-JeanneAlter2 {
+    background-position: -185px -185px;
+}
+.flair-extra-Kiara {
+    background-position: -245px -185px;
+}
+.flair-extra-Lavinia {
+    background-position: -305px -185px;
+}
+.flair-extra-Lip {
+    background-position: -5px -245px;
+}
+.flair-extra-Lobo {
+    background-position: -65px -245px;
+}
+.flair-extra-MHXX1 {
+    background-position: -125px -245px;
+}
+.flair-extra-MHXX2 {
+    background-position: -185px -245px;
+}
+.flair-extra-MarthaRuler {
+    background-position: -245px -245px;
+}
+.flair-extra-Mashu1 {
+    background-position: -305px -245px;
+}
+.flair-extra-Mashu2 {
+    background-position: -5px -305px;
+}
+.flair-extra-Mashu3 {
+    background-position: -65px -305px;
+}
+.flair-extra-MechaEli1 {
+    background-position: -125px -305px;
+}
+.flair-extra-MechaEli2 {
+    background-position: -185px -305px;
+}
+.flair-extra-Melt {
+    background-position: -245px -305px;
+}
+.flair-extra-OkitaAlter {
+    background-position: -305px -305px;
+}
+.flair-extra-Protea {
+    background-position: -365px -5px;
+}
+.flair-extra-QSH {
+    background-position: -365px -65px;
+}
+.flair-extra-QuetzRuler {
+    background-position: -365px -125px;
+}
+.flair-extra-Salieri1 {
+    background-position: -365px -185px;
+}
+.flair-extra-Salieri2 {
+    background-position: -365px -245px;
+}
+.flair-extra-Sitonai {
+    background-position: -365px -305px;
+}
+.flair-extra-Tiamat {
+    background-position: -5px -365px;
+}
+*[class*="flair-extraaf-"]{
+background: url(%%ExtraAF%%);
+}
+.flair-extraaf-AbigailAF {
+    background-position: -1px -1px;
+}
+.flair-extraaf-AmakusaAF {
+    background-position: -53px -1px;
+}
+.flair-extraaf-AngraAF {
+    background-position: -105px -1px;
+}
+.flair-extraaf-BBAF {
+    background-position: -157px -1px;
+}
+.flair-extraaf-DantesAF {
+    background-position: -1px -53px;
+}
+.flair-extraaf-GoetiaAF {
+    background-position: -53px -53px;
+}
+.flair-extraaf-GorgonAF {
+    background-position: -105px -53px;
+}
+.flair-extraaf-HessianAF {
+    background-position: -157px -53px;
+}
+.flair-extraaf-HokusaiAF {
+    background-position: -1px -105px;
+}
+.flair-extraaf-HolmesAF {
+    background-position: -53px -105px;
+}
+.flair-extraaf-JeanneAF {
+    background-position: -105px -105px;
+}
+.flair-extraaf-JeanneAlterAF {
+    background-position: -157px -105px;
+}
+.flair-extraaf-KiaraAF {
+    background-position: -1px -157px;
+}
+.flair-extraaf-LaviniaAF {
+    background-position: -53px -157px;
+}
+.flair-extraaf-LipAF {
+    background-position: -105px -157px;
+}
+.flair-extraaf-LoboAF {
+    background-position: -157px -157px;
+}
+.flair-extraaf-MarthaRulerAF {
+    background-position: -209px -1px;
+}
+.flair-extraaf-MashuAF {
+    background-position: -209px -53px;
+}
+.flair-extraaf-MechaEliAF1 {
+    background-position: -209px -105px;
+}
+.flair-extraaf-MechaEliAF2 {
+    background-position: -209px -157px;
+}
+.flair-extraaf-MeltAF {
+    background-position: -1px -209px;
+}
+.flair-extraaf-TiamatAF {
+    background-position: -53px -209px;
+}
+*[class*="flair-other-"]{
+    background: url(%%Other%%);
+}
+.flair-other-Angelica {
+    background-position: -1px -1px;
+}
+.flair-other-Azaka {
+    background-position: -53px -1px;
+}
+.flair-other-Bazett {
+    background-position: -105px -1px;
+}
+.flair-other-BlackKeys1 {
+    background-position: -157px -1px;
+}
+.flair-other-BlackKeys2 {
+    background-position: -209px -1px;
+}
+.flair-other-BlackKeys3 {
+    background-position: -261px -1px;
+}
+.flair-other-Caren {
+    background-position: -313px -1px;
+}
+.flair-other-Caules {
+    background-position: -1px -53px;
+}
+.flair-other-Fiore {
+    background-position: -53px -53px;
+}
+.flair-other-Flat {
+    background-position: -105px -53px;
+}
+.flair-other-Freeman {
+    background-position: -157px -53px;
+}
+.flair-other-Gelda {
+    background-position: -209px -53px;
+}
+.flair-other-Gordolf {
+    background-position: -261px -53px;
+}
+.flair-other-Gudako1 {
+    background-position: -313px -53px;
+}
+.flair-other-Gudako2 {
+    background-position: -1px -105px;
+}
+.flair-other-Gudao1 {
+    background-position: -53px -105px;
+}
+.flair-other-Gudao2 {
+    background-position: -105px -105px;
+}
+.flair-other-Hakuno {
+    background-position: -157px -105px;
+}
+.flair-other-Hakunon {
+    background-position: -209px -105px;
+}
+.flair-other-Hinako {
+    background-position: -261px -105px;
+}
+.flair-other-IllyaFSN {
+    background-position: -313px -105px;
+}
+.flair-other-Issei {
+    background-position: -1px -157px;
+}
+.flair-other-Julius {
+    background-position: -53px -157px;
+}
+.flair-other-Kadoc {
+    background-position: -105px -157px;
+}
+.flair-other-Kairi {
+    background-position: -157px -157px;
+}
+.flair-other-Kariya {
+    background-position: -209px -157px;
+}
+.flair-other-Kayneth {
+    background-position: -261px -157px;
+}
+.flair-other-Kirei {
+    background-position: -313px -157px;
+}
+.flair-other-KiritsuguFZ {
+    background-position: -1px -209px;
+}
+.flair-other-Leo {
+    background-position: -53px -209px;
+}
+.flair-other-Luvia {
+    background-position: -105px -209px;
+}
+.flair-other-Maiya {
+    background-position: -157px -209px;
+}
+.flair-other-Mapo {
+    background-position: -209px -209px;
+}
+.flair-other-Mercury {
+    background-position: -261px -209px;
+}
+.flair-other-Mikiya {
+    background-position: -313px -209px;
+}
+.flair-other-Olga {
+    background-position: -1px -261px;
+}
+.flair-other-Ophelia {
+    background-position: -53px -261px;
+}
+.flair-other-Rani {
+    background-position: -105px -261px;
+}
+.flair-other-Reika {
+    background-position: -157px -261px;
+}
+.flair-other-Rin {
+    background-position: -209px -261px;
+}
+.flair-other-RiyoGudako {
+    background-position: -261px -261px;
+}
+.flair-other-RiyoGudao {
+    background-position: -313px -261px;
+}
+.flair-other-Roche {
+    background-position: -1px -313px;
+}
+.flair-other-Roman1 {
+    background-position: -53px -313px;
+}
+.flair-other-Roman2 {
+    background-position: -105px -313px;
+}
+.flair-other-Sakura {
+    background-position: -157px -313px;
+}
+.flair-other-Shinji {
+    background-position: -209px -313px;
+}
+.flair-other-Shirley {
+    background-position: -261px -313px;
+}
+.flair-other-Shirou {
+    background-position: -313px -313px;
+}
+.flair-other-Sion {
+    background-position: -365px -1px;
+}
+.flair-other-Sola {
+    background-position: -365px -53px;
+}
+.flair-other-Souichirou {
+    background-position: -365px -105px;
+}
+.flair-other-Svin {
+    background-position: -365px -157px;
+}
+.flair-other-Tokiomi {
+    background-position: -365px -209px;
+}
+.flair-other-Touko {
+    background-position: -365px -261px;
+}
+.flair-other-Twice {
+    background-position: -365px -313px;
+}
+.flair-other-Uryuu {
+    background-position: -1px -365px;
+}
+.flair-other-Yaga {
+    background-position: -53px -365px;
+}
+.flair-other-Zelretch {
+    background-position: -105px -365px;
+}
+.flair-other-Zouken {
+    background-position: -157px -365px;
+}
+*[class*="flair-20-"] {
+    background-image: url(%%Uniqueflair%%);
+}
+
+.flair-20-Agramar {
+    background-position: -1px -1px;
+}
+.flair-20-Awashima {
+    background-position: -53px -1px;
+}
+.flair-20-EnergizingLemon {
+    background-position: -105px -1px;
+}
+.flair-20--grape- {
+    background-position: -1px -53px;
+}
+.flair-20-Graveweaver {
+    background-position: -53px -53px;
+}
+.flair-20-Isyden {
+    background-position: -105px -53px;
+}
+.flair-20-JaxunHero {
+    background-position: -1px -105px;
+}
+.flair-20-Kinalvin {
+    background-position: -53px -105px;
+}
+.flair-20-Protag {
+    background-position: -105px -105px;
+}
+.flair-20-SakuDial {
+    background-position: -157px -1px;
+}
+.flair-20-Savadava {
+    background-position: -157px -53px;
+}
+.flair-20-Ventosx {
+    background-position: -157px -105px;
+}
+.flair-20-farranpoison {
+    background-position: -1px -157px;
+}
+.flair-20-xNaya {
+    background-position: -53px -157px;
+}
+
+
+/*Mod Flairs*/
+
+*[class*="flair-Mod-"]{
+	background-image: url(%%SummerFlairs%%);
+}
+
+.flair-Mod-Bridemodflair {
+    width: 90px;
+    height: 85px;
+    background-position: -1px -1px;
+}
+.flair-Mod-Enkidumodflair {
+    width: 74px;
+    height: 89px;
+    background-position: -93px -1px;
+}
+.flair-Mod-Foumodflair {
+    width: 84px;
+    height: 90px;
+    background-position: -169px -1px;
+}
+.flair-Mod-Ramamodflair {
+    width: 71px;
+    height: 90px;
+    background-position: -1px -93px;
+}
+.flair-Mod-Shermodflair {
+    width: 87px;
+    height: 90px;
+    background-position: -74px -93px;
+}
+.flair-Mod-Shikimodflair {
+    width: 77px;
+    height: 89px;
+    background-position: -163px -93px;
+}
+.flair-Mod-bb {
+    width: 88px;
+    height: 90px;
+    background-position: -255px -1px;
+}
+.flair-Mod-fuzzyviper {
+    width: 87px;
+    height: 90px;
+    background-position: -242px -93px;
+}
+.flair-Mod-jeannemodflair {
+    width: 84px;
+    height: 90px;
+    background-position: -1px -185px;
+}
+.flair-Mod-mashubot {
+    width: 50px;
+    height: 90px;
+    background-position: -87px -185px;
+}
+/*******************************USER TITLES**************************************************/
+
+.author[href$="/Awashima"]:after{content: " 良い文明 "; color: #a47c48; font-weight: bold;}
+.author[href$="xNaya"]:after{content: " Switch On! "; color: #c72736; font-weight: bold;}
+.author[href$="/EnergizingLemon"]:after{content: " Bad Roll Purifier "; color: #0d024f; font-weight: bold;}
+.author[href$="/JaxunHero"]:after{content: " The Blue Knight "; color: #4169e1; font-weight: bold;}
+.author[href$="/Agramar"]:after{content: " Whine for me Zasshu "; color: #ac1a24; font-weight: bold;}
+
+/*******************************SPOILERS/THUMBNAIL/POST FLAIRS*******************************/
+
+
+*[class*="linkflair-"] .linkflairlabel {
+    width: 105px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    font-size: 12px;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.linkflair-a .linkflairlabel {
+    background-color: purple;
+    border-color: #4C4C4C;
+}
+.linkflair-b .linkflairlabel {
+    background-color: #ff69b4;
+    border-color: #000;
+}
+.linkflair-c .linkflairlabel {
+    background-color: red;
+    border-color: #4C4C4C;
+}
+.linkflair-d .linkflairlabel {
+    background-color: grey;
+    border-color: #4C4C4C;
+}
+.linkflair-e .linkflairlabel {
+    background-color: navy;
+    border-color: #000;
+}
+.linkflair-f .linkflairlabel {
+    background-color: #0790d8;
+    border-color: #000;
+}
+.linkflair-g .linkflairlabel {
+    background-color: #f0f;
+    border-color: #000;
+}
+.linkflair-h .linkflairlabel {
+    background-color: silver;
+    border-color: #000;
+}
+.linkflair-i .linkflairlabel {
+    background-color: green;
+    border-color: #000;
+}
+.linkflair-j .linkflairlabel {
+    background-color: orange;
+    border-color: #000;
+}
+.linkflair-k .linkflairlabel {
+    background-color: navy;
+    border-color: #000;
+}
+.linkflair-l .linkflairlabel {
+    background-color: navy;
+    border-color: #000;
+}
+.linkflair-m .linkflairlabel {
+    background-color: navy;
+    border-color: #000;
+}
+.linkflair-n .linkflairlabel {
+    background-color: navy;
+    border-color: #000;
+}
+.linkflair-o .linkflairlabel {
+    background-color: navy;
+    border-color: #000;
+}
+.linkflair-p .linkflairlabel {
+    background-color: navy;
+    border-color: #000;
+}
+.linkflair-q .linkflairlabel {
+    background-color: #4a78df;
+    border-color: #000;
+}
+.linkflair-r .linkflairlabel {
+	background-color: #5a4c85;
+	border-color: black;
+}
+.linkflair-s .linkflairlabel {
+    background-color: brown;
+    border-color: #000;
+}
+.linkflair-t .linkflairlabel {
+    background-color: black;
+    border-color: #000;
+}
+.linkflair-u .linkflairlabel {
+    background-color: #e09e61;
+    border-color: #000;
+}
+.linkflair-v .linkflairlabel {
+    background-color: #991f21;
+    border-color: #000;
+}
+
+a[href="/s"]{color:#FFF!important;cursor:text;-moz-border-radius:3px;border-radius:3px;padding:0 2px}a[href="/s"]:hover{color:#FFF!important}a[href="/s"]::after{content:attr(title);padding:0 8px}a[href="/s"]:hover::after,a[href="/s"]:active::after{color:#FFF}a[href="/s"]{background:#000}a[href="/s"]::after{background:#000;color:#000}
+
+
+/*=========================FILTER=========================*/
+
+:lang(ff) .linkflair-b {display:none;}
+
+/*******************************COMMENT FACES*******************************/
+
+
+.thing .md a[href^="/"]:not([href^="/r/"]):not([href^="/u/"]):not([href="/s"]):not([href="/v"]):not([href^="/message"]):not(.noKeyNav),
+.thing .md a[href^="#"] {
+    display: inline-block;
+    position: relative;
+    padding-top: 2px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    color: #fff!important;
+    text-shadow: 1px 1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, -1px -1px 0 #000, 1px 1px 1px #000, 1px -1px 1px #000, -1px 1px 1px #000, -1px -1px 1px #000;
+    cursor: default
+}
+.thing .md a[href^="/"]:not([href^="/r/"]):not([href^="/u/"]):not([href="/s"]):not([href="/v"]):not([href^="/message"]) > strong,
+.thing .md a[href^="#"] > strong {
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 4px;
+    font-weight: 400
+}
+
+.thing .md a[href^="#"] {
+    display: inline-block;
+    width: 150px;
+    height: 150px
+}
+
+a[href = "#BBChannel"],
+a[href = "#TeachShock"],
+a[href = "#TeachWhistle"],
+a[href = "#CasGilLaugh"],
+a[href = "#CasGilSmug"],
+a[href = "#VinciScary"],
+a[href = "#SHINSENGUMI"],
+a[href = "#JalterWhat"],
+a[href = "#JeanneBlush"] {
+	background:url(%%commentfaces%%)no-repeat;
+}
+a[href = "#BBChannel"]{
+	background-position: -1px -1px;
+}
+a[href = "#TeachShock"]{
+	background-position: -153px -1px;
+}
+a[href = "#TeachWhistle"]{
+	background-position: -305px -1px;
+}
+a[href = "#CasGilLaugh"]{
+	background-position: -1px -153px;
+}
+a[href = "#CasGilSmug"]{
+	background-position: -153px -153px;
+}
+a[href = "#VinciScary"]{
+	background-position: -305px -153px;
+}
+a[href = "#SHINSENGUMI"]{
+	background-position: -1px -305px;
+}
+a[href = "#JalterWhat"]{
+	background-position: -153px -305px;
+}
+a[href = "#JeanneBlush"]{
+	background-position: -305px -305px;
+}
+a[href = "#JeanneHappy"],
+a[href = "#SantaLilyCry"],
+a[href = "#MHXXOuch"],
+a[href = "#MashuSenpai"],
+a[href = "#Medjed"],
+a[href = "#MoriartyEvil"],
+a[href = "#NyalterWink"],
+a[href = "#OryouSleep"],
+a[href = "#PenthBerserk"]{
+	background:url(%%commentfaces2%%)no-repeat;
+}
+a[href = "#JeanneHappy"]{
+	background-position: -1px -1px;
+}
+a[href = "#SantaLilyCry"]{
+	background-position: -153px -1px;
+}
+a[href = "#MHXXOuch"]{
+	background-position: -305px -1px;
+}
+a[href = "#MashuSenpai"]{
+	background-position: -1px -153px;
+}
+a[href = "#Medjed"]{
+	background-position: -153px -153px;
+}
+a[href = "#MoriartyEvil"]{
+	background-position: -305px -153px;
+}
+a[href = "#NyalterWink"]{
+	background-position: -1px -305px;
+}
+a[href = "#OryouSleep"]{
+	background-position: -153px -305px;
+}
+a[href = "#PenthBerserk"]{
+	background-position: -305px -305px;
+}
+a[href = "#RyoumaGuda"],
+a[href = "#SalieriDisgust"],
+a[href = "#ShebaStressed"],
+a[href = "#ShikiMysticEyes"],
+a[href = "#MeganeKiran"],
+a[href = "#Starlord"],
+a[href = "#TamamoAngry"],
+a[href = "#YanEatYou"]{
+	background:url(%%commentfaces3%%)no-repeat;
+}
+a[href = "#RyoumaGuda"]{
+	background-position: -1px -1px;
+}
+a[href = "#SalieriDisgust"]{
+	background-position: -153px -1px;
+}
+a[href = "#ShebaStressed"]{
+	background-position: -1px -153px;
+}
+a[href = "#ShikiMysticEyes"]{
+	background-position: -153px -153px;
+}
+a[href = "#MeganeKiran"]{
+	background-position: -305px -1px;
+}
+a[href = "#Starlord"]{
+	background-position: -305px -153px;
+}
+a[href = "#TamamoAngry"]{
+	background-position: -1px -305px;
+}
+a[href = "#YanEatYou"]{
+	background-position: -153px -305px;
+}
+a[href = "#SuntaStache"],
+a[href = "#ArthurCulture"],
+a[href = "#SaberBlush"],
+a[href = "#SalterWhat"],
+a[href = "#AsteriosGrin"],
+a[href = "#AstolfoBlush"],
+a[href = "#BBScary"],
+a[href = "#BeoProud"],
+a[href = "#TeachAww"],
+a[href = "#TeachPls"],
+a[href = "#BoudicaBlush"],
+a[href = "#BoudicaMad"]{
+	background:url(%%commentfaces4%%)no-repeat;
+}
+a[href = "#SuntaStache"]{
+	background-position: -1px -1px;
+}
+a[href = "#ArthurCulture"]{
+	background-position: -153px -1px;
+}
+a[href = "#SaberBlush"]{
+	background-position: -305px -1px;
+}
+a[href = "#SalterWhat"]{
+	background-position: -1px -153px;
+}
+a[href = "#AsteriosGrin"]{
+	background-position: -153px -153px;
+}
+a[href = "#AstolfoBlush"]{
+	background-position: -305px -153px;
+}
+a[href = "#BBScary"]{
+	background-position: -1px -305px;
+}
+a[href = "#BeoProud"]{
+	background-position: -153px -305px;
+}
+a[href = "#TeachAww"]{
+	background-position: -305px -305px;
+}
+a[href = "#TeachPls"]{
+	background-position: -457px -1px;
+}
+a[href = "#BoudicaBlush"]{
+	background-position: -457px -153px;
+}
+a[href = "#BoudicaMad"]{
+	background-position: -457px -305px;
+}
+a[href = "#BrynStress"],
+a[href = "#CirceReally"],
+a[href = "#CuGrin"],
+a[href = "#HassanGib"],
+a[href = "#KEHAHA"],
+a[href = "#Cavall"],
+a[href = "#DrakeTch"],
+a[href = "#LizMad"],
+a[href = "#EmiyaSmile"],
+a[href = "#EnkiduGlare"],
+a[href = "#EreshHappy"],
+a[href = "#EreshTsun"]{
+	background:url(%%commentfaces5%%)no-repeat;
+}
+a[href = "#BrynStress"]{
+	background-position: -1px -1px;
+}
+a[href = "#CirceReally"]{
+	background-position: -153px -1px;
+}
+a[href = "#CuGrin"]{
+	background-position: -305px -1px;
+}
+a[href = "#HassanGib"]{
+	background-position: -1px -153px;
+}
+a[href = "#KEHAHA"]{
+	background-position: -153px -153px;
+}
+a[href = "#Cavall"]{
+	background-position: -305px -153px;
+}
+a[href = "#DrakeTch"]{
+	background-position: -1px -305px;
+}
+a[href = "#LizMad"]{
+	background-position: -153px -305px;
+}
+a[href = "#EmiyaSmile"]{
+	background-position: -305px -305px;
+}
+a[href = "#EnkiduGlare"]{
+	background-position: -457px -1px;
+}
+a[href = "#EreshHappy"]{
+	background-position: -457px -153px;
+}
+a[href = "#EreshTsun"]{
+	background-position: -457px -305px;
+}
+a[href = "#EuryaleShock"],
+a[href = "#FionnDisgust"],
+a[href = "#JustGawain"],
+a[href = "#GilSmug"],
+a[href = "#GilWait"],
+a[href = "#COOL"],
+a[href = "#Snek"],
+a[href = "#HansSmug"],
+a[href = "#HektorHehe"],
+a[href = "#HokusaiAra"],
+a[href = "#SherlockRaise"],
+a[href = "#HydeAngry"]{
+	background:url(%%commentfaces6%%)no-repeat;
+}
+a[href = "#EuryaleShock"]{
+	background-position: -1px -1px;
+}
+a[href = "#FionnDisgust"]{
+	background-position: -153px -1px;
+}
+a[href = "#JustGawain"]{
+	background-position: -305px -1px;
+}
+a[href = "#GilSmug"]{
+	background-position: -1px -153px;
+}
+a[href = "#GilWait"]{
+	background-position: -153px -153px;
+}
+a[href = "#COOL"]{
+	background-position: -305px -153px;
+}
+a[href = "#Snek"]{
+	background-position: -1px -305px;
+}
+a[href = "#HansSmug"]{
+	background-position: -153px -305px;
+}
+a[href = "#HektorHehe"]{
+	background-position: -305px -305px;
+}
+a[href = "#HokusaiAra"]{
+	background-position: -457px -1px;
+}
+a[href = "#SherlockRaise"]{
+	background-position: -457px -153px;
+}
+a[href = "#HydeAngry"]{
+	background-position: -457px -305px;
+}
+a[href = "#IllyaLewd"],
+a[href = "#IshtarBusted"],
+a[href = "#IshtarBully"],
+a[href = "#TaigaStupid"],
+a[href = "#JalterDisgust"],
+a[href = "#JalterWhatever"],
+a[href = "#KarnaEye"],
+a[href = "#Dokoda"],
+a[href = "#KintokiConfused"],
+a[href = "#KiyoTrouble"],
+a[href = "#KiyoLewd"],
+a[href = "#KiyoHappy"]{
+	background:url(%%commentfaces7%%)no-repeat;
+}
+a[href = "#IllyaLewd"]{
+	background-position: -1px -1px;
+}
+a[href = "#IshtarBusted"]{
+	background-position: -153px -1px;
+}
+a[href = "#IshtarBully"]{
+	background-position: -305px -1px;
+}
+a[href = "#TaigaStupid"]{
+	background-position: -1px -153px;
+}
+a[href = "#JalterDisgust"]{
+	background-position: -153px -153px;
+}
+a[href = "#JalterWhatever"]{
+	background-position: -305px -153px;
+}
+a[href = "#KarnaEye"]{
+	background-position: -1px -305px;
+}
+a[href = "#Dokoda"]{
+	background-position: -153px -305px;
+}
+a[href = "#KintokiConfused"]{
+	background-position: -305px -305px;
+}
+a[href = "#KiyoTrouble"]{
+	background-position: -457px -1px;
+}
+a[href = "#KiyoLewd"]{
+	background-position: -457px -153px;
+}
+a[href = "#KiyoHappy"]{
+	background-position: -457px -305px;
+}
+a[href = "#RegendSigh"],
+a[href = "#LalterShout"],
+a[href = "#LilyHappy"],
+a[href = "#SalterReally"],
+a[href = "#MarieGasp"],
+a[href = "#MarthaOh"],
+a[href = "#MarthaOops"],
+a[href = "#MataOops"],
+a[href = "#MedusaAngry"],
+a[href = "#MordredLol"],
+a[href = "#NeroBlush"],
+a[href = "#NeroUmu"]{
+	background:url(%%commentfaces8%%)no-repeat;
+}
+a[href = "#RegendSigh"]{
+	background-position: -1px -1px;
+}
+a[href = "#LalterShout"]{
+	background-position: -153px -1px;
+}
+a[href = "#LilyHappy"]{
+	background-position: -305px -1px;
+}
+a[href = "#SalterReally"]{
+	background-position: -1px -153px;
+}
+a[href = "#MarieGasp"]{
+	background-position: -153px -153px;
+}
+a[href = "#MarthaOh"]{
+	background-position: -305px -153px;
+}
+a[href = "#MarthaOops"]{
+	background-position: -1px -305px;
+}
+a[href = "#MataOops"]{
+	background-position: -153px -305px;
+}
+a[href = "#MedusaAngry"]{
+	background-position: -305px -305px;
+}
+a[href = "#MordredLol"]{
+	background-position: -457px -1px;
+}
+a[href = "#NeroBlush"]{
+	background-position: -457px -153px;
+}
+a[href = "#NeroUmu"]{
+	background-position: -457px -305px;
+}
+a[href = "#NightingaleSigh"],
+a[href = "#NobuGuda"],
+a[href = "#OkitaGuda"],
+a[href = "#OkitaCough"],
+a[href = "#OlgaBlush"],
+a[href = "#NeetBlush"],
+a[href = "#ParaSigh"],
+a[href = "#QuetzLucha"],
+a[href = "#RobinSigh"],
+a[href = "#RomaRespect"],
+a[href = "#ShishouSigh"],
+a[href = "#Oppression"]{
+	background:url(%%commentfaces9%%)no-repeat;
+}
+a[href = "#NightingaleSigh"]{
+	background-position: -1px -1px;
+}
+a[href = "#NobuGuda"]{
+	background-position: -153px -1px;
+}
+a[href = "#OkitaGuda"]{
+	background-position: -305px -1px;
+}
+a[href = "#OkitaCough"]{
+	background-position: -1px -153px;
+}
+a[href = "#OlgaBlush"]{
+	background-position: -153px -153px;
+}
+a[href = "#NeetBlush"]{
+	background-position: -305px -153px;
+}
+a[href = "#ParaSigh"]{
+	background-position: -1px -305px;
+}
+a[href = "#QuetzLucha"]{
+	background-position: -153px -305px;
+}
+a[href = "#RobinSigh"]{
+	background-position: -305px -305px;
+}
+a[href = "#RomaRespect"]{
+	background-position: -457px -1px;
+}
+a[href = "#ShishouSigh"]{
+	background-position: -457px -153px;
+}
+a[href = "#Oppression"]{
+	background-position: -457px -305px;
+}
+a[href = "#SthenoScare"],
+a[href = "#SuzukaWhat"],
+a[href = "#TamaCatHappy"],
+a[href = "#TamaCatSad"],
+a[href = "#TeslaSrsly"],
+a[href = "#UshiHmph"],
+a[href = "#VladSad"],
+a[href = "#ShikiSigh"],
+a[href = "#WaverUhm"]{
+	background:url(%%commentfaces10%%)no-repeat;
+}
+[href = "#SthenoScare"]{
+	background-position: -1px -1px;
+}
+a[href = "#SuzukaWhat"]{
+	background-position: -153px -1px;
+}
+a[href = "#TamaCatHappy"]{
+	background-position: -305px -1px;
+}
+a[href = "#TamaCatSad"]{
+	background-position: -1px -153px;
+}
+a[href = "#TeslaSrsly"]{
+	background-position: -153px -153px;
+}
+a[href = "#UshiHmph"]{
+	background-position: -305px -153px;
+}
+a[href = "#VladSad"]{
+	background-position: -1px -305px;
+}
+a[href = "#ShikiSigh"]{
+	background-position: -153px -305px;
+}
+a[href = "#WaverUhm"]{
+	background-position: -305px -305px;
+}
+a[href = "#GachaDespair"],
+a[href = "#OGHelena"],
+a[href = "#Gendo"],
+a[href = "#SadLion"],
+a[href = "#BadSide"],
+a[href = "#Gramps"],
+a[href = "#KillMe"],
+a[href = "#SmugLaugh"],
+a[href = "#Thonk"],
+a[href = "#TimeToDie"],
+a[href = "#ViveLaFrance"],
+a[href = "#WhaleTime"]{
+	background:url(%%GraveFaces%%)no-repeat;
+}
+a[href = "#GachaDespair"]{
+	background-position: -1px -1px;
+}
+a[href = "#OGHelena"]{
+	background-position: -153px -1px;
+}
+a[href = "#Gendo"]{
+	background-position: -305px -1px;
+}
+a[href = "#SadLion"]{
+	background-position: -1px -153px;
+}
+a[href = "#BadSide"]{
+	background-position: -153px -153px;
+}
+a[href = "#Gramps"]{
+	background-position: -305px -153px;
+}
+a[href = "#KillMe"]{
+	background-position: -1px -305px;
+}
+a[href = "#SmugLaugh"]{
+	background-position: -153px -305px;
+}
+a[href = "#Thonk"]{
+	background-position: -305px -305px;
+}
+a[href = "#TimeToDie"]{
+	background-position: -457px -1px;
+}
+a[href = "#ViveLaFrance"]{
+	background-position: -457px -153px;
+}
+a[href = "#WhaleTime"]{
+	background-position: -457px -305px;
+}
+
+/*******************************************MISCELLANIOUS***************************************************/
+
+.flairrow .flairdeletebtn {
+	display: none !important
+}
+
+
+/* Remove grey background behind flairs */
+.flair {
+	background-color: transparent;
+}
+
+.side ol li {
+    display: inline-block;
+    float: left;
+}
