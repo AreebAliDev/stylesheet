@@ -58,27 +58,15 @@ body>.content:before,
 
 /*===============================HEADER===============================*/
 
-
-
-.flairrow .flairdeletebtn {
-	display: none !important
-}
-
 .tabmenu {
 	position: relative;
-	z-index: 1;
 }
 
 #header-bottom-left {
-
-/*    background-image: url(%%whitefade%%); */
-    background-repeat: no-repeat;
     height: 113px;
-    background-color: transparent;
     border-bottom: 30px solid #9EB8EA
 }
 body.res-nightmode #header-bottom-left {
-    background-image: none!important;
     background-color: #444;
     border-bottom: 30px solid #333
 }
@@ -90,7 +78,6 @@ body.res-nightmode #header-bottom-left {
     line-height: 25px;
     top: 107px;
     left: 20px;
-    display: inline-block;
 }
 
 #header {
@@ -966,10 +953,10 @@ rgb(201,120,99) red shit
     display: none
 }
 .titlebox .number:after {
-    content: " stranded on uncharted island "
+    content: " playing Fate/Samurai Reincarnation "
 }
 .titlebox .users-online span.number:after {
-    content: " vacationing in Hawaii "
+    content: " tall enough for Oniland Rides "
 }
 .titlebox .word {
     display: none
@@ -2004,1730 +1991,1749 @@ background-color:transparent;
 	background-color: transparent;
 }
 
-*[class*="flair-saber-"]{
-	background: url(%%Saber%%);
+*[class*="flair-s-"]{
+	background: url(%%S%%);
 }
-.flair-saber-Altera {
-    background-position: -1px -1px;
-}
-.flair-saber-Arthur1 {
-    background-position: -53px -1px;
-}
-.flair-saber-Arthur2 {
-    background-position: -105px -1px;
-}
-.flair-saber-Artoria {
-    background-position: -157px -1px;
-}
-.flair-saber-Artoria1 {
-    background-position: -209px -1px;
-}
-.flair-saber-ArtoriaLily {
-    background-position: -261px -1px;
-}
-.flair-saber-Bedivere {
-    background-position: -1px -53px;
-}
-.flair-saber-Benienma {
-    background-position: -53px -53px;
-}
-.flair-saber-Caesar {
-    background-position: -105px -53px;
-}
-.flair-saber-Deon {
-    background-position: -157px -53px;
-}
-.flair-saber-DiarmuidSaber {
-    background-position: -209px -53px;
-}
-.flair-saber-Fergus {
-    background-position: -261px -53px;
-}
-.flair-saber-FranSaber {
-    background-position: -1px -105px;
-}
-.flair-saber-Gawain {
-    background-position: -53px -105px;
-}
-.flair-saber-GillesSaber {
-    background-position: -105px -105px;
-}
-.flair-saber-Lakshmibai {
-    background-position: -157px -105px;
-}
-.flair-saber-LancelotSaber {
-    background-position: -209px -105px;
-}
-.flair-saber-Lanling1 {
-    background-position: -261px -105px;
-}
-.flair-saber-Lanling2 {
-    background-position: -1px -157px;
-}
-.flair-saber-LizSaber {
-    background-position: -53px -157px;
-}
-.flair-saber-MHX {
-    background-position: -105px -157px;
-}
-.flair-saber-MedbSaber {
-    background-position: -157px -157px;
-}
-.flair-saber-Mordred1 {
-    background-position: -209px -157px;
-}
-.flair-saber-Mordred2 {
-    background-position: -261px -157px;
-}
-.flair-saber-Musashi {
-    background-position: -1px -209px;
-}
-.flair-saber-Nero {
-    background-position: -53px -209px;
-}
-.flair-saber-NeroBloomer {
-    background-position: -105px -209px;
-}
-.flair-saber-NeroBride {
-    background-position: -157px -209px;
-}
-.flair-saber-Okita {
-    background-position: -209px -209px;
-}
-.flair-saber-OkitaFeet {
-    background-position: -261px -209px;
-}
-.flair-saber-Rama {
-    background-position: -1px -261px;
-}
-.flair-saber-Salter {
-    background-position: -53px -261px;
-}
-.flair-saber-ShikiSaber {
-    background-position: -105px -261px;
-}
-.flair-saber-Siegfried {
-    background-position: -157px -261px;
-}
-.flair-saber-Sigurd1 {
-    background-position: -209px -261px;
-}
-.flair-saber-Sigurd2 {
-    background-position: -261px -261px;
-}
-.flair-saber-Suzuka {
-    background-position: -313px -1px;
-}
-.flair-saber-Yagyu {
-    background-position: -313px -53px;
-}
-*[class*="flair-saberaf"]{
-    background: url(%%SaberAF%%);
-}
-.flair-saberaf-AhogeAF {
-    background-position: -1px -1px;
-}
-.flair-saberaf-AlteraAF {
-    background-position: -53px -1px;
-}
-.flair-saberaf-ArthurAF {
-    background-position: -105px -1px;
-}
-.flair-saberaf-ArtoriaAlterAF {
-    background-position: -157px -1px;
-}
-.flair-saberaf-ArtoriaLilyAF {
-    background-position: -209px -1px;
-}
-.flair-saberaf-ArtoriaAF {
-    background-position: -1px -53px;
-}
-.flair-saberaf-BedivereAF {
-    background-position: -53px -53px;
-}
-.flair-saberaf-CaesarAF {
-    background-position: -105px -53px;
-}
-.flair-saberaf-DeonAF {
-    background-position: -157px -53px;
-}
-.flair-saberaf-FergusAF {
-    background-position: -209px -53px;
-}
-.flair-saberaf-FranSaberAF {
-    background-position: -1px -105px;
-}
-.flair-saberaf-GawainAF {
-    background-position: -53px -105px;
-}
-.flair-saberaf-GillesSaberAF {
-    background-position: -105px -105px;
-}
-.flair-saberaf-LancelotSaberAF {
-    background-position: -157px -105px;
-}
-.flair-saberaf-LizSaberAF {
-    background-position: -209px -105px;
-}
-.flair-saberaf-MHXAF {
-    background-position: -1px -157px;
-}
-.flair-saberaf-MordredAF {
-    background-position: -53px -157px;
-}
-.flair-saberaf-MusashiAF {
-    background-position: -105px -157px;
-}
-.flair-saberaf-NeroBrideAF {
-    background-position: -157px -157px;
-}
-.flair-saberaf-NeroAF {
-    background-position: -209px -157px;
-}
-.flair-saberaf-OkitaAF {
-    background-position: -1px -209px;
-}
-.flair-saberaf-RamaAF {
-    background-position: -53px -209px;
-}
-.flair-saberaf-ShikiSaberAF {
-    background-position: -105px -209px;
-}
-.flair-saberaf-SiegfriedAF {
-    background-position: -157px -209px;
-}
-.flair-saberaf-SuzukaAF {
-    background-position: -209px -209px;
-}
-.flair-saberaf-YagyuAF {
-    background-position: -261px -1px;
-}
-*[class*="flair-archer-"]{
-    background: url(%%Archer%%);
-}
-.flair-archer-AlteraArcher {
-    background-position: -5px -5px;
-}
-.flair-archer-AnneArcher {
-    background-position: -65px -5px;
-}
-.flair-archer-Arash {
-    background-position: -125px -5px;
-}
-.flair-archer-Arjuna {
-    background-position: -185px -5px;
-}
-.flair-archer-ArtoriaArcher {
-    background-position: -245px -5px;
-}
-.flair-archer-Ashwatthama2 {
-    background-position: -5px -65px;
-}
-.flair-archer-Atalanta {
-    background-position: -65px -65px;
-}
-.flair-archer-Billy {
-    background-position: -125px -65px;
-}
-.flair-archer-Chiron {
-    background-position: -185px -65px;
-}
-.flair-archer-David {
-    background-position: -245px -65px;
-}
-.flair-archer-Emiya {
-    background-position: -5px -125px;
-}
-.flair-archer-EmiyaAlter {
-    background-position: -65px -125px;
-}
-.flair-archer-Euryale {
-    background-position: -125px -125px;
-}
-.flair-archer-Fujino {
-    background-position: -185px -125px;
-}
-.flair-archer-Gilgamesh {
-    background-position: -245px -125px;
-}
-.flair-archer-HelenaArcher {
-    background-position: -5px -185px;
-}
-.flair-archer-Ishtar {
-    background-position: -65px -185px;
-}
-.flair-archer-JeanneArcher {
-    background-position: -125px -185px;
-}
-.flair-archer-Kogil {
-    background-position: -185px -185px;
-}
-.flair-archer-Kuro {
-    background-position: -245px -185px;
-}
-.flair-archer-MaryArcher {
-    background-position: -5px -245px;
-}
-.flair-archer-Moriarty {
-    background-position: -65px -245px;
-}
-.flair-archer-Napoleon {
-    background-position: -125px -245px;
-}
-.flair-archer-Nobu {
-    background-position: -185px -245px;
-}
-.flair-archer-Orion1 {
-    background-position: -245px -245px;
-}
-.flair-archer-Orion2 {
-    background-position: -305px -5px;
-}
-.flair-archer-Robin1 {
-    background-position: -305px -65px;
-}
-.flair-archer-Robin2 {
-    background-position: -305px -125px;
-}
-.flair-archer-Tesla {
-    background-position: -305px -185px;
-}
-.flair-archer-Tomoe {
-    background-position: -305px -245px;
-}
-.flair-archer-Touta {
-    background-position: -5px -305px;
-}
-.flair-archer-Tristan {
-    background-position: -65px -305px;
-}
-.flair-archer-William {
-    background-position: -125px -305px;
-}
-*[class*="flair-archeraf-"]{
-    background: url(%%ArcherAF%%);
-}
-.flair-archeraf-AlteraArcherAF {
-    background-position: -1px -1px;
-}
-.flair-archeraf-AnneArcherAF {
-    background-position: -53px -1px;
-}
-.flair-archeraf-ArashAF {
-    background-position: -105px -1px;
-}
-.flair-archeraf-ArtoriaArcherAF1 {
-    background-position: -157px -1px;
-}
-.flair-archeraf-ArtoriaArcherAF2 {
-    background-position: -209px -1px;
-}
-.flair-archeraf-ArjunaAF {
-    background-position: -1px -53px;
-}
-.flair-archeraf-AtalantaAF {
-    background-position: -53px -53px;
-}
-.flair-archeraf-BillyAF {
-    background-position: -105px -53px;
-}
-.flair-archeraf-DavidAF {
-    background-position: -157px -53px;
-}
-.flair-archeraf-EmiyaAlterAF {
-    background-position: -209px -53px;
-}
-.flair-archeraf-EmiyaAF {
-    background-position: -1px -105px;
-}
-.flair-archeraf-EreshkigalAF2 {
-    background-position: -53px -105px;
-}
-.flair-archeraf-EuryaleAF {
-    background-position: -105px -105px;
-}
-.flair-archeraf-FujinaAF {
-    background-position: -157px -105px;
-}
-.flair-archeraf-GilgameshAF {
-    background-position: -209px -105px;
-}
-.flair-archeraf-HelenaArcherAF {
-    background-position: -1px -157px;
-}
-.flair-archeraf-IshtarAF2 {
-    background-position: -53px -157px;
-}
-.flair-archeraf-KogilAF {
-    background-position: -105px -157px;
-}
-.flair-archeraf-KuroAF {
-    background-position: -157px -157px;
-}
-.flair-archeraf-MaryArcherAF {
-    background-position: -209px -157px;
-}
-.flair-archeraf-MoriartyAF {
-    background-position: -1px -209px;
-}
-.flair-archeraf-NobuAF {
-    background-position: -53px -209px;
-}
-.flair-archeraf-OrionAF1 {
-    background-position: -105px -209px;
-}
-.flair-archeraf-OrionAF2 {
-    background-position: -157px -209px;
-}
-.flair-archeraf-RobinAF {
-    background-position: -209px -209px;
-}
-.flair-archeraf-TeslaAF {
-    background-position: -261px -1px;
-}
-.flair-archeraf-TomoeAF {
-    background-position: -261px -53px;
-}
-.flair-archeraf-ToudaAF {
-    background-position: -261px -105px;
-}
-.flair-archeraf-TristanAF {
-    background-position: -261px -157px;
-}
-*[class*="flair-lancer-"]{
-    background: url(%%Lancer%%);
-}
-.flair-lancer-Benkei {
+.flair-s-1 {
     background-position: 0 0;
 }
-.flair-lancer-Bradamante {
+.flair-s-10 {
     background-position: -50px 0;
 }
-.flair-lancer-Bryn {
+.flair-s-11 {
     background-position: -100px 0;
 }
-.flair-lancer-Cu {
+.flair-s-12 {
     background-position: -150px 0;
 }
-.flair-lancer-CuProto {
+.flair-s-13 {
     background-position: -200px 0;
 }
-.flair-lancer-Diarmuid {
+.flair-s-14 {
     background-position: -250px 0;
 }
-.flair-lancer-Enkidu {
+.flair-s-15 {
     background-position: 0 -50px;
 }
-.flair-lancer-Ereshkigal {
+.flair-s-16 {
     background-position: -50px -50px;
 }
-.flair-lancer-Fionn {
+.flair-s-17 {
     background-position: -100px -50px;
 }
-.flair-lancer-Hector {
+.flair-s-18 {
     background-position: -150px -50px;
 }
-.flair-lancer-IbarakiLancer {
+.flair-s-19 {
     background-position: -200px -50px;
 }
-.flair-lancer-Inshun1 {
+.flair-s-2 {
     background-position: -250px -50px;
 }
-.flair-lancer-Inshun2 {
+.flair-s-20 {
     background-position: 0 -100px;
 }
-.flair-lancer-Jaguar {
+.flair-s-21 {
     background-position: -50px -100px;
 }
-.flair-lancer-JeanneLily {
+.flair-s-22 {
     background-position: -100px -100px;
 }
-.flair-lancer-Karna {
+.flair-s-23 {
     background-position: -150px -100px;
 }
-.flair-lancer-KiyoLancer {
+.flair-s-24 {
     background-position: -200px -100px;
 }
-.flair-lancer-LAlter1 {
+.flair-s-25 {
     background-position: -250px -100px;
 }
-.flair-lancer-LAlter2 {
+.flair-s-26 {
     background-position: 0 -150px;
 }
-.flair-lancer-LArtoria1 {
+.flair-s-27 {
     background-position: -50px -150px;
 }
-.flair-lancer-LArtoria2 {
+.flair-s-28 {
     background-position: -100px -150px;
 }
-.flair-lancer-Leonidas1 {
+.flair-s-29 {
     background-position: -150px -150px;
 }
-.flair-lancer-Leonidas2 {
+.flair-s-3 {
     background-position: -200px -150px;
 }
-.flair-lancer-Li {
+.flair-s-30 {
     background-position: -250px -150px;
 }
-.flair-lancer-Liang {
+.flair-s-31 {
     background-position: 0 -200px;
 }
-.flair-lancer-Liz {
+.flair-s-32 {
     background-position: -50px -200px;
 }
-.flair-lancer-MedusaLancer {
+.flair-s-33 {
     background-position: -100px -200px;
 }
-.flair-lancer-MedusaLancer1 {
+.flair-s-34 {
     background-position: -150px -200px;
 }
-.flair-lancer-Nezha {
+.flair-s-35 {
     background-position: -200px -200px;
 }
-.flair-lancer-Parvati {
+.flair-s-36 {
     background-position: -250px -200px;
 }
-.flair-lancer-RaikouLancer {
+.flair-s-37 {
     background-position: 0 -250px;
 }
-.flair-lancer-Roma {
+.flair-s-4 {
     background-position: -50px -250px;
 }
-.flair-lancer-Scathach {
+.flair-s-5 {
     background-position: -100px -250px;
 }
-.flair-lancer-TamaLancer {
+.flair-s-6 {
     background-position: -150px -250px;
 }
-.flair-lancer-Valkyrie1 {
+.flair-s-7 {
     background-position: -200px -250px;
 }
-.flair-lancer-Valkyrie2 {
+.flair-s-8 {
     background-position: -250px -250px;
 }
-.flair-lancer-Valkyrie3 {
+.flair-s-9 {
     background-position: -300px 0;
 }
-.flair-lancer-VladExtra {
-    background-position: -300px -50px;
+*[class*="flair-sf-"]{
+	background: url(%%SF%%);
 }
-*[class*="flair-lanceraf-"]{
-    background: url(%%LancerAF%%);
-}
-.flair-lanceraf-BenkeiAF {
-    background-position: -1px -1px;
-}
-.flair-lanceraf-BrynAF {
-    background-position: -53px -1px;
-}
-.flair-lanceraf-CuProtoAF {
-    background-position: -105px -1px;
-}
-.flair-lanceraf-CuAF {
-    background-position: -157px -1px;
-}
-.flair-lanceraf-DiarmuidAF {
-    background-position: -209px -1px;
-}
-.flair-lanceraf-EnkiduAF {
-    background-position: -1px -53px;
-}
-.flair-lanceraf-EreshkigalAF {
-    background-position: -53px -53px;
-}
-.flair-lanceraf-FionnAF {
-    background-position: -105px -53px;
-}
-.flair-lanceraf-HectorAF {
-    background-position: -157px -53px;
-}
-.flair-lanceraf-InshunAF {
-    background-position: -209px -53px;
-}
-.flair-lanceraf-IshtarAF {
-    background-position: -1px -105px;
-}
-.flair-lanceraf-JaguarAF {
-    background-position: -53px -105px;
-}
-.flair-lanceraf-JeanneLilyAF {
-    background-position: -105px -105px;
-}
-.flair-lanceraf-KarnaAF {
-    background-position: -157px -105px;
-}
-.flair-lanceraf-KiyoLancerAF {
-    background-position: -209px -105px;
-}
-.flair-lanceraf-LAlterAF {
-    background-position: -1px -157px;
-}
-.flair-lanceraf-LArtoriaAF {
-    background-position: -53px -157px;
-}
-.flair-lanceraf-LeonidasAF {
-    background-position: -105px -157px;
-}
-.flair-lanceraf-LiAF {
-    background-position: -157px -157px;
-}
-.flair-lanceraf-LizAF {
-    background-position: -209px -157px;
-}
-.flair-lanceraf-MedusaLilyAF {
-    background-position: -1px -209px;
-}
-.flair-lanceraf-NezhaAF {
-    background-position: -53px -209px;
-}
-.flair-lanceraf-ParvatiAF {
-    background-position: -105px -209px;
-}
-.flair-lanceraf-RaikouLancerAF {
-    background-position: -157px -209px;
-}
-.flair-lanceraf-RomaAF {
-    background-position: -209px -209px;
-}
-.flair-lanceraf-ScathAF {
-    background-position: -261px -1px;
-}
-.flair-lanceraf-TamaLancerAF {
-    background-position: -261px -53px;
-}
-.flair-lanceraf-VladExtraAF {
-    background-position: -261px -105px;
-}
-*[class*="flair-rider-"]{
-    background: url(%%Rider%%);
-}
-.flair-rider-Achilles {
-    background-position: -1px -1px;
-}
-.flair-rider-Alexander {
-    background-position: -53px -1px;
-}
-.flair-rider-Anne {
-    background-position: -105px -1px;
-}
-.flair-rider-Astolfo {
-    background-position: -157px -1px;
-}
-.flair-rider-Blackbeard {
-    background-position: -209px -1px;
-}
-.flair-rider-Boudica {
-    background-position: -1px -53px;
-}
-.flair-rider-Columbus {
-    background-position: -53px -53px;
-}
-.flair-rider-Drake {
-    background-position: -105px -53px;
-}
-.flair-rider-George {
-    background-position: -157px -53px;
-}
-.flair-rider-IshtarRider {
-    background-position: -209px -53px;
-}
-.flair-rider-Iskandar {
-    background-position: -1px -105px;
-}
-.flair-rider-Ivan {
-    background-position: -53px -105px;
-}
-.flair-rider-KintokiRider {
-    background-position: -105px -105px;
-}
-.flair-rider-MaidAlter {
-    background-position: -157px -105px;
-}
-.flair-rider-Marie {
-    background-position: -209px -105px;
-}
-.flair-rider-Martha {
-    background-position: -1px -157px;
-}
-.flair-rider-Mary {
-    background-position: -53px -157px;
-}
-.flair-rider-Medb {
-    background-position: -105px -157px;
-}
-.flair-rider-MedbWarden {
-    background-position: -157px -157px;
-}
-.flair-rider-Medusa {
-    background-position: -209px -157px;
-}
-.flair-rider-MordredRider {
-    background-position: -1px -209px;
-}
-.flair-rider-Oryuu {
-    background-position: -53px -209px;
-}
-.flair-rider-Ozy {
-    background-position: -105px -209px;
-}
-.flair-rider-Quetz {
-    background-position: -157px -209px;
-}
-.flair-rider-RedHare {
-    background-position: -209px -209px;
-}
-.flair-rider-Reines {
-    background-position: -261px -1px;
-}
-.flair-rider-Ryouma {
-    background-position: -261px -53px;
-}
-.flair-rider-SantaAlter {
-    background-position: -261px -105px;
-}
-.flair-rider-Ushi {
-    background-position: -261px -157px;
-}
-*[class*="flair-rideraf-"]{
-    background: url(%%RiderAF%%);
-}
-.flair-rideraf-AlexanderAF {
-    background-position: -1px -1px;
-}
-.flair-rideraf-AnneAF {
-    background-position: -53px -1px;
-}
-.flair-rideraf-AstolfoAF {
-    background-position: -105px -1px;
-}
-.flair-rideraf-BlackbeardAF {
-    background-position: -157px -1px;
-}
-.flair-rideraf-BoudicaAF {
-    background-position: -1px -53px;
-}
-.flair-rideraf-ColumbusAF {
-    background-position: -53px -53px;
-}
-.flair-rideraf-DrakeAF {
-    background-position: -105px -53px;
-}
-.flair-rideraf-GeorgeAF {
-    background-position: -157px -53px;
-}
-.flair-rideraf-IshtarRiderAF {
-    background-position: -1px -105px;
-}
-.flair-rideraf-IskandarAF {
-    background-position: -53px -105px;
-}
-.flair-rideraf-IvanGrave {
-    background-position: -105px -105px;
-}
-.flair-rideraf-KintokiRiderAF {
-    background-position: -157px -105px;
-}
-.flair-rideraf-MaidAlterAF {
-    background-position: -1px -157px;
-}
-.flair-rideraf-MarieAF {
-    background-position: -53px -157px;
-}
-.flair-rideraf-MarthaAF {
-    background-position: -105px -157px;
-}
-.flair-rideraf-MaryAF {
-    background-position: -157px -157px;
-}
-.flair-rideraf-MedbAF {
-    background-position: -209px -1px;
-}
-.flair-rideraf-MedusaAF {
-    background-position: -209px -53px;
-}
-.flair-rideraf-MordredRiderAF {
-    background-position: -209px -105px;
-}
-.flair-rideraf-OzyAF {
-    background-position: -209px -157px;
-}
-.flair-rideraf-QuetzAF {
-    background-position: -1px -209px;
-}
-.flair-rideraf-SantaAlterAF {
-    background-position: -53px -209px;
-}
-.flair-rideraf-UshiAF {
-    background-position: -105px -209px;
-}
-*[class*="flair-caster-"]{
-    background: url(%%Caster%%);
-}
-.flair-caster-Anastasia {
-    background-position: -1px -1px;
-}
-.flair-caster-Asclepius1 {
-    background-position: -53px -1px;
-}
-.flair-caster-Asclepius2 {
-    background-position: -105px -1px;
-}
-.flair-caster-Avicebron {
-    background-position: -157px -1px;
-}
-.flair-caster-Babbage {
-    background-position: -209px -1px;
-}
-.flair-caster-Circe {
-    background-position: -261px -1px;
-}
-.flair-caster-CuCas {
-    background-position: -1px -53px;
-}
-.flair-caster-Davinci {
-    background-position: -53px -53px;
-}
-.flair-caster-Edison {
-    background-position: -105px -53px;
-}
-.flair-caster-Geronimo {
-    background-position: -157px -53px;
-}
-.flair-caster-GilCas {
-    background-position: -209px -53px;
-}
-.flair-caster-GillesCas {
-    background-position: -261px -53px;
-}
-.flair-caster-Hans {
-    background-position: -1px -105px;
-}
-.flair-caster-Helena {
-    background-position: -53px -105px;
-}
-.flair-caster-Illya {
-    background-position: -105px -105px;
-}
-.flair-caster-Irisviel {
-    background-position: -157px -105px;
-}
-.flair-caster-LizCas {
-    background-position: -209px -105px;
-}
-.flair-caster-MarieCas {
-    background-position: -261px -105px;
-}
-.flair-caster-Medea {
-    background-position: -1px -157px;
-}
-.flair-caster-MedeaLily {
-    background-position: -53px -157px;
-}
-.flair-caster-Meph {
-    background-position: -105px -157px;
-}
-.flair-caster-Merlin {
-    background-position: -157px -157px;
-}
-.flair-caster-MerlinHood {
-    background-position: -209px -157px;
-}
-.flair-caster-Miyu {
-    background-position: -261px -157px;
-}
-.flair-caster-Mozart {
-    background-position: -1px -209px;
-}
-.flair-caster-Murasaki {
-    background-position: -53px -209px;
-}
-.flair-caster-NeroCas {
-    background-position: -105px -209px;
-}
-.flair-caster-Nitocris {
-    background-position: -157px -209px;
-}
-.flair-caster-Para {
-    background-position: -209px -209px;
-}
-.flair-caster-Rhyme1 {
-    background-position: -261px -209px;
-}
-.flair-caster-Rhyme2 {
-    background-position: -1px -261px;
-}
-.flair-caster-Sche {
-    background-position: -53px -261px;
-}
-.flair-caster-Shakespeare {
-    background-position: -105px -261px;
-}
-.flair-caster-Sheba {
-    background-position: -157px -261px;
-}
-.flair-caster-ShutenCaster {
-    background-position: -209px -261px;
-}
-.flair-caster-Sieg {
-    background-position: -261px -261px;
-}
-.flair-caster-Skadi {
-    background-position: -313px -1px;
-}
-.flair-caster-Solomon {
-    background-position: -313px -53px;
-}
-.flair-caster-Tamamo {
-    background-position: -313px -105px;
-}
-.flair-caster-Waver1 {
-    background-position: -313px -157px;
-}
-.flair-caster-Waver2 {
-    background-position: -313px -209px;
-}
-.flair-caster-Xuanzang {
-    background-position: -313px -261px;
-}
-*[class*="flair-casteraf-"]{
-    background: url(%%CasterAF%%);
-}
-.flair-casteraf-BabbageAF {
-    background-position: -1px -1px;
-}
-.flair-casteraf-CirceAF {
-    background-position: -53px -1px;
-}
-.flair-casteraf-CuCasAF {
-    background-position: -105px -1px;
-}
-.flair-casteraf-DavinciAF {
-    background-position: -157px -1px;
-}
-.flair-casteraf-EdisonAF {
-    background-position: -209px -1px;
-}
-.flair-casteraf-FouAF {
-    background-position: -1px -53px;
-}
-.flair-casteraf-GeronimoAF {
-    background-position: -53px -53px;
-}
-.flair-casteraf-GilCasAF {
-    background-position: -105px -53px;
-}
-.flair-casteraf-GillesCasAF {
-    background-position: -157px -53px;
-}
-.flair-casteraf-HansAF {
-    background-position: -209px -53px;
-}
-.flair-casteraf-HelenaAF {
-    background-position: -1px -105px;
-}
-.flair-casteraf-IllyaAF {
-    background-position: -53px -105px;
-}
-.flair-casteraf-IrisvielAF {
-    background-position: -105px -105px;
-}
-.flair-casteraf-LizCasAF {
-    background-position: -157px -105px;
-}
-.flair-casteraf-MarieCasAF {
-    background-position: -209px -105px;
-}
-.flair-casteraf-MedaLilyAF {
-    background-position: -1px -157px;
-}
-.flair-casteraf-MedeaAF {
-    background-position: -53px -157px;
-}
-.flair-casteraf-MephAF {
-    background-position: -105px -157px;
-}
-.flair-casteraf-MerlinAF {
-    background-position: -157px -157px;
-}
-.flair-casteraf-MozartAF {
-    background-position: -209px -157px;
-}
-.flair-casteraf-NeroCasAF {
-    background-position: -1px -209px;
-}
-.flair-casteraf-NitocrisAF {
-    background-position: -53px -209px;
-}
-.flair-casteraf-ParaAF {
-    background-position: -105px -209px;
-}
-.flair-casteraf-RhymeAF {
-    background-position: -157px -209px;
-}
-.flair-casteraf-ScheAF {
-    background-position: -209px -209px;
-}
-.flair-casteraf-ShakespeareAF {
-    background-position: -261px -1px;
-}
-.flair-casteraf-ShebaAF {
-    background-position: -261px -53px;
-}
-.flair-casteraf-SolomonAF {
-    background-position: -261px -105px;
-}
-.flair-casteraf-TamamoAF {
-    background-position: -261px -157px;
-}
-.flair-casteraf-WaverAF {
-    background-position: -261px -209px;
-}
-.flair-casteraf-XuanzangAF {
-    background-position: -1px -261px;
-}
-*[class*="flair-assassin-"]{
-    background: url(%%Assassin%%);
-}
-.flair-assassin-Carmilla {
-    background-position: -1px -1px;
-}
-.flair-assassin-Chiyome {
-    background-position: -53px -1px;
-}
-.flair-assassin-Cleo {
-    background-position: -105px -1px;
-}
-.flair-assassin-CursedArm {
-    background-position: -157px -1px;
-}
-.flair-assassin-Danzo {
-    background-position: -209px -1px;
-}
-.flair-assassin-EmiyaAss1 {
-    background-position: -261px -1px;
-}
-.flair-assassin-EmiyaAss2 {
-    background-position: -1px -53px;
-}
-.flair-assassin-Gray {
-    background-position: -53px -53px;
-}
-.flair-assassin-Hundred {
-    background-position: -105px -53px;
-}
-.flair-assassin-JH1 {
-    background-position: -157px -53px;
-}
-.flair-assassin-JH2 {
-    background-position: -209px -53px;
-}
-.flair-assassin-Jack {
-    background-position: -261px -53px;
-}
-.flair-assassin-Jing {
-    background-position: -1px -105px;
-}
-.flair-assassin-Kama1 {
-    background-position: -53px -105px;
-}
-.flair-assassin-Kama2 {
-    background-position: -105px -105px;
-}
-.flair-assassin-KingHassan {
-    background-position: -157px -105px;
-}
-.flair-assassin-Kojiro {
-    background-position: -209px -105px;
-}
-.flair-assassin-Kotarou {
-    background-position: -261px -105px;
-}
-.flair-assassin-LiAssassin {
-    background-position: -1px -157px;
-}
-.flair-assassin-Mata {
-    background-position: -53px -157px;
-}
-.flair-assassin-NitoAss1 {
-    background-position: -105px -157px;
-}
-.flair-assassin-NitoAss2 {
-    background-position: -157px -157px;
-}
-.flair-assassin-Okada1 {
-    background-position: -209px -157px;
-}
-.flair-assassin-Okada2 {
-    background-position: -261px -157px;
-}
-.flair-assassin-Osaka {
-    background-position: -1px -209px;
-}
-.flair-assassin-Phantom {
-    background-position: -53px -209px;
-}
-.flair-assassin-Sanson {
-    background-position: -105px -209px;
-}
-.flair-assassin-ScathachAss {
-    background-position: -157px -209px;
-}
-.flair-assassin-Semiramis {
-    background-position: -209px -209px;
-}
-.flair-assassin-Serenity {
-    background-position: -261px -209px;
-}
-.flair-assassin-ShikiAss {
-    background-position: -1px -261px;
-}
-.flair-assassin-Shuten {
-    background-position: -53px -261px;
-}
-.flair-assassin-Stheno {
-    background-position: -105px -261px;
-}
-.flair-assassin-UshiAss {
-    background-position: -157px -261px;
-}
-.flair-assassin-Wu {
-    background-position: -209px -261px;
-}
-.flair-assassin-Yan {
-    background-position: -261px -261px;
-}
-.flair-assassin-Yu {
-    background-position: -313px -1px;
-}
-*[class*="flair-assassinaf-"]{
-    background: url(%%AssassinAF%%);
-}
-.flair-assassinaf-CarmillaAF {
-    background-position: -1px -1px;
-}
-.flair-assassinaf-ChiyomeAF {
-    background-position: -53px -1px;
-}
-.flair-assassinaf-CleoAF {
-    background-position: -105px -1px;
-}
-.flair-assassinaf-CursedArmAF {
-    background-position: -157px -1px;
-}
-.flair-assassinaf-DanzoAF {
-    background-position: -209px -1px;
-}
-.flair-assassinaf-EmiyaAssAF {
-    background-position: -1px -53px;
-}
-.flair-assassinaf-HundredAF {
-    background-position: -53px -53px;
-}
-.flair-assassinaf-JHAF {
-    background-position: -105px -53px;
-}
-.flair-assassinaf-JackAF {
-    background-position: -157px -53px;
-}
-.flair-assassinaf-JingAF {
-    background-position: -209px -53px;
-}
-.flair-assassinaf-KingHassanAF {
-    background-position: -1px -105px;
-}
-.flair-assassinaf-KojiroAF {
-    background-position: -53px -105px;
-}
-.flair-assassinaf-KotarouAF {
-    background-position: -105px -105px;
-}
-.flair-assassinaf-MataAF {
-    background-position: -157px -105px;
-}
-.flair-assassinaf-NitoAssAF {
-    background-position: -209px -105px;
-}
-.flair-assassinaf-OsakaAF {
-    background-position: -1px -157px;
-}
-.flair-assassinaf-PhantomAF {
-    background-position: -53px -157px;
-}
-.flair-assassinaf-SansonAF {
-    background-position: -105px -157px;
-}
-.flair-assassinaf-ScathAssAF {
-    background-position: -157px -157px;
-}
-.flair-assassinaf-SemiramisAF {
-    background-position: -209px -157px;
-}
-.flair-assassinaf-SerenityAF {
-    background-position: -1px -209px;
-}
-.flair-assassinaf-ShikiAssAF {
-    background-position: -53px -209px;
-}
-.flair-assassinaf-ShutenAF {
-    background-position: -105px -209px;
-}
-.flair-assassinaf-SthenoAF {
-    background-position: -157px -209px;
-}
-.flair-assassinaf-WuAF {
-    background-position: -209px -209px;
-}
-.flair-assassinaf-YanAF {
-    background-position: -261px -1px;
-}
-*[class*="flair-berserker-"]{
-    background: url(%%Berserker%%);
-}
-.flair-berserker-ArjunaAlter2 {
+.flair-sf-1 {
     background-position: 0 0;
 }
-.flair-berserker-Asterios1 {
+.flair-sf-10 {
     background-position: -50px 0;
 }
-.flair-berserker-Asterios2 {
+.flair-sf-11 {
     background-position: -100px 0;
 }
-.flair-berserker-AtalantaBer {
+.flair-sf-12 {
     background-position: -150px 0;
 }
-.flair-berserker-Beowulf {
-    background-position: -200px 0;
-}
-.flair-berserker-Bunyan {
+.flair-sf-13 {
     background-position: 0 -50px;
 }
-.flair-berserker-Caligula {
+.flair-sf-14 {
     background-position: -50px -50px;
 }
-.flair-berserker-Chacha {
+.flair-sf-15 {
     background-position: -100px -50px;
 }
-.flair-berserker-CuAlter {
+.flair-sf-16 {
     background-position: -150px -50px;
 }
-.flair-berserker-Darius {
-    background-position: -200px -50px;
-}
-.flair-berserker-Eric {
+.flair-sf-17 {
     background-position: 0 -100px;
 }
-.flair-berserker-Fran {
+.flair-sf-18 {
     background-position: -50px -100px;
 }
-.flair-berserker-Heracles {
+.flair-sf-19 {
     background-position: -100px -100px;
 }
-.flair-berserker-Hijikata {
+.flair-sf-2 {
     background-position: -150px -100px;
 }
-.flair-berserker-Ibaraki {
-    background-position: -200px -100px;
-}
-.flair-berserker-JeanneAlterBer {
+.flair-sf-20 {
     background-position: 0 -150px;
 }
-.flair-berserker-Kintoki {
+.flair-sf-21 {
     background-position: -50px -150px;
 }
-.flair-berserker-Kiyohime {
+.flair-sf-22 {
     background-position: -100px -150px;
 }
-.flair-berserker-Lancelot {
+.flair-sf-23 {
     background-position: -150px -150px;
 }
-.flair-berserker-Lu {
+.flair-sf-24 {
+    background-position: -200px 0;
+}
+.flair-sf-3 {
+    background-position: -200px -50px;
+}
+.flair-sf-4 {
+    background-position: -200px -100px;
+}
+.flair-sf-5 {
     background-position: -200px -150px;
 }
-.flair-berserker-MHXA {
+.flair-sf-6 {
     background-position: 0 -200px;
 }
-.flair-berserker-Nightingale {
+.flair-sf-7 {
     background-position: -50px -200px;
 }
-.flair-berserker-NobuBer {
+.flair-sf-8 {
     background-position: -100px -200px;
 }
-.flair-berserker-Penth {
+.flair-sf-9 {
     background-position: -150px -200px;
 }
-.flair-berserker-Raikou {
+*[class*="flair-a-"]{
+	background: url(%%A%%);
+}
+.flair-a-1 {
+    background-position: 0 0;
+}
+.flair-a-10 {
+    background-position: -50px 0;
+}
+.flair-a-11 {
+    background-position: -100px 0;
+}
+.flair-a-12 {
+    background-position: -150px 0;
+}
+.flair-a-13 {
+    background-position: -200px 0;
+}
+.flair-a-14 {
+    background-position: 0 -50px;
+}
+.flair-a-15 {
+    background-position: -50px -50px;
+}
+.flair-a-16 {
+    background-position: -100px -50px;
+}
+.flair-a-17 {
+    background-position: -150px -50px;
+}
+.flair-a-18 {
+    background-position: -200px -50px;
+}
+.flair-a-19 {
+    background-position: 0 -100px;
+}
+.flair-a-2 {
+    background-position: -50px -100px;
+}
+.flair-a-20 {
+    background-position: -100px -100px;
+}
+.flair-a-21 {
+    background-position: -150px -100px;
+}
+.flair-a-22 {
+    background-position: -200px -100px;
+}
+.flair-a-23 {
+    background-position: 0 -150px;
+}
+.flair-a-24 {
+    background-position: -50px -150px;
+}
+.flair-a-25 {
+    background-position: -100px -150px;
+}
+.flair-a-26 {
+    background-position: -150px -150px;
+}
+.flair-a-27 {
+    background-position: -200px -150px;
+}
+.flair-a-28 {
+    background-position: 0 -200px;
+}
+.flair-a-29 {
+    background-position: -50px -200px;
+}
+.flair-a-3 {
+    background-position: -100px -200px;
+}
+.flair-a-30 {
+    background-position: -150px -200px;
+}
+.flair-a-31 {
     background-position: -200px -200px;
 }
-.flair-berserker-Spartacus {
+.flair-a-32 {
     background-position: -250px 0;
 }
-.flair-berserker-TamaCat {
+.flair-a-33 {
     background-position: -250px -50px;
 }
-.flair-berserker-Vlad {
+.flair-a-34 {
     background-position: -250px -100px;
 }
-.flair-berserker-Xiang {
+.flair-a-4 {
     background-position: -250px -150px;
 }
-*[class*="flair-berserkeraf-"]{
-    background: url(%%BerserkerAF%%);
+.flair-a-5 {
+    background-position: -250px -200px;
 }
-.flair-berserkeraf-AsteriosAF {
-    background-position: -1px -1px;
+.flair-a-6 {
+    background-position: 0 -250px;
 }
-.flair-berserkeraf-BeowulfAF {
-    background-position: -53px -1px;
+.flair-a-7 {
+    background-position: -50px -250px;
 }
-.flair-berserkeraf-BunyanAF {
-    background-position: -105px -1px;
+.flair-a-8 {
+    background-position: -100px -250px;
 }
-.flair-berserkeraf-CaligulaAF {
-    background-position: -157px -1px;
+.flair-a-9 {
+    background-position: -150px -250px;
 }
-.flair-berserkeraf-ChachaAF {
-    background-position: -1px -53px;
+*[class*="flair-af-"]{
+	background: url(%%AF%%);
 }
-.flair-berserkeraf-CuAlterAF {
-    background-position: -53px -53px;
+.flair-af-1 {
+    background-position: 0 0;
 }
-.flair-berserkeraf-DariusAF {
-    background-position: -105px -53px;
+.flair-af-10 {
+    background-position: -50px 0;
 }
-.flair-berserkeraf-EricAF {
-    background-position: -157px -53px;
+.flair-af-11 {
+    background-position: -100px 0;
 }
-.flair-berserkeraf-FranAF {
-    background-position: -1px -105px;
+.flair-af-12 {
+    background-position: -150px 0;
 }
-.flair-berserkeraf-HeraclesAF {
-    background-position: -53px -105px;
+.flair-af-13 {
+    background-position: -200px 0;
 }
-.flair-berserkeraf-HijikataAF {
-    background-position: -105px -105px;
+.flair-af-14 {
+    background-position: 0 -50px;
 }
-.flair-berserkeraf-IbarakiAF {
-    background-position: -157px -105px;
+.flair-af-15 {
+    background-position: -50px -50px;
 }
-.flair-berserkeraf-KintokiAF {
-    background-position: -1px -157px;
+.flair-af-16 {
+    background-position: -100px -50px;
 }
-.flair-berserkeraf-KiyohimeAF {
-    background-position: -53px -157px;
+.flair-af-17 {
+    background-position: -150px -50px;
 }
-.flair-berserkeraf-LancelotAF {
-    background-position: -105px -157px;
+.flair-af-18 {
+    background-position: -200px -50px;
 }
-.flair-berserkeraf-LuAF {
-    background-position: -157px -157px;
+.flair-af-19 {
+    background-position: 0 -100px;
 }
-.flair-berserkeraf-MHXAAF {
-    background-position: -209px -1px;
+.flair-af-2 {
+    background-position: -50px -100px;
 }
-.flair-berserkeraf-NightingaleAF {
-    background-position: -209px -53px;
+.flair-af-20 {
+    background-position: -100px -100px;
 }
-.flair-berserkeraf-NobuBerAF {
-    background-position: -209px -105px;
+.flair-af-21 {
+    background-position: -150px -100px;
 }
-.flair-berserkeraf-PenthAF {
-    background-position: -209px -157px;
+.flair-af-22 {
+    background-position: -200px -100px;
 }
-.flair-berserkeraf-RaikouAF {
-    background-position: -1px -209px;
+.flair-af-23 {
+    background-position: 0 -150px;
 }
-.flair-berserkeraf-SpartacusAF {
-    background-position: -53px -209px;
+.flair-af-24 {
+    background-position: -50px -150px;
 }
-.flair-berserkeraf-TamaCatAF {
-    background-position: -105px -209px;
+.flair-af-25 {
+    background-position: -100px -150px;
 }
-.flair-berserkeraf-VladAF {
-    background-position: -157px -209px;
+.flair-af-26 {
+    background-position: -150px -150px;
 }
-*[class*="flair-extra-"]{
-    background: url(%%Extra%%);
+.flair-af-27 {
+    background-position: -200px -150px;
 }
-.flair-extra-Abigail1 {
-    background-position: -5px -5px;
+.flair-af-3 {
+    background-position: 0 -200px;
 }
-.flair-extra-Abigail2 {
-    background-position: -65px -5px;
+.flair-af-4 {
+    background-position: -50px -200px;
 }
-.flair-extra-Amakusa {
-    background-position: -125px -5px;
+.flair-af-5 {
+    background-position: -100px -200px;
 }
-.flair-extra-Angra1 {
-    background-position: -185px -5px;
+.flair-af-6 {
+    background-position: -150px -200px;
 }
-.flair-extra-Angra2 {
-    background-position: -245px -5px;
+.flair-af-7 {
+    background-position: -200px -200px;
 }
-.flair-extra-Angra3 {
-    background-position: -305px -5px;
+.flair-af-8 {
+    background-position: -250px 0;
 }
-.flair-extra-Astraea {
-    background-position: -5px -65px;
+.flair-af-9 {
+    background-position: -250px -50px;
 }
-.flair-extra-BB {
-    background-position: -65px -65px;
+
+*[class*="flair-l-"]{
+	background: url(%%L%%);
 }
-.flair-extra-BBSummer {
-    background-position: -125px -65px;
+.flair-l-1 {
+    background-position: 0 0;
 }
-.flair-extra-Dantes {
-    background-position: -185px -65px;
+.flair-l-10 {
+    background-position: -50px 0;
 }
-.flair-extra-DantesCaptain {
-    background-position: -245px -65px;
+.flair-l-11 {
+    background-position: -100px 0;
 }
-.flair-extra-Ganesha2 {
-    background-position: -305px -65px;
+.flair-l-12 {
+    background-position: -150px 0;
 }
-.flair-extra-Goetia {
-    background-position: -5px -125px;
+.flair-l-13 {
+    background-position: -200px 0;
 }
-.flair-extra-Gorgon {
-    background-position: -65px -125px;
+.flair-l-14 {
+    background-position: -250px 0;
 }
-.flair-extra-Hessian {
-    background-position: -125px -125px;
+.flair-l-15 {
+    background-position: 0 -50px;
 }
-.flair-extra-Hokusai1 {
-    background-position: -185px -125px;
+.flair-l-16 {
+    background-position: -50px -50px;
 }
-.flair-extra-Hokusai2 {
-    background-position: -245px -125px;
+.flair-l-17 {
+    background-position: -100px -50px;
 }
-.flair-extra-Holmes {
-    background-position: -305px -125px;
+.flair-l-18 {
+    background-position: -150px -50px;
 }
-.flair-extra-Jeanne1 {
-    background-position: -5px -185px;
+.flair-l-19 {
+    background-position: -200px -50px;
 }
-.flair-extra-Jeanne2 {
-    background-position: -65px -185px;
+.flair-l-2 {
+    background-position: -250px -50px;
 }
-.flair-extra-JeanneAlter1 {
-    background-position: -125px -185px;
+.flair-l-20 {
+    background-position: 0 -100px;
 }
-.flair-extra-JeanneAlter2 {
-    background-position: -185px -185px;
+.flair-l-21 {
+    background-position: -50px -100px;
 }
-.flair-extra-Kiara {
-    background-position: -245px -185px;
+.flair-l-22 {
+    background-position: -100px -100px;
 }
-.flair-extra-Lavinia {
-    background-position: -305px -185px;
+.flair-l-23 {
+    background-position: -150px -100px;
 }
-.flair-extra-Lip {
-    background-position: -5px -245px;
+.flair-l-24 {
+    background-position: -200px -100px;
 }
-.flair-extra-Lobo {
-    background-position: -65px -245px;
+.flair-l-25 {
+    background-position: -250px -100px;
 }
-.flair-extra-MHXX1 {
-    background-position: -125px -245px;
+.flair-l-26 {
+    background-position: 0 -150px;
 }
-.flair-extra-MHXX2 {
-    background-position: -185px -245px;
+.flair-l-27 {
+    background-position: -50px -150px;
 }
-.flair-extra-MarthaRuler {
-    background-position: -245px -245px;
+.flair-l-28 {
+    background-position: -100px -150px;
 }
-.flair-extra-Mashu1 {
-    background-position: -305px -245px;
+.flair-l-29 {
+    background-position: -150px -150px;
 }
-.flair-extra-Mashu2 {
-    background-position: -5px -305px;
+.flair-l-3 {
+    background-position: -200px -150px;
 }
-.flair-extra-Mashu3 {
-    background-position: -65px -305px;
+.flair-l-30 {
+    background-position: -250px -150px;
 }
-.flair-extra-MechaEli1 {
-    background-position: -125px -305px;
+.flair-l-31 {
+    background-position: 0 -200px;
 }
-.flair-extra-MechaEli2 {
-    background-position: -185px -305px;
+.flair-l-32 {
+    background-position: -50px -200px;
 }
-.flair-extra-Melt {
-    background-position: -245px -305px;
+.flair-l-33 {
+    background-position: -100px -200px;
 }
-.flair-extra-OkitaAlter {
-    background-position: -305px -305px;
+.flair-l-34 {
+    background-position: -150px -200px;
 }
-.flair-extra-Protea {
-    background-position: -365px -5px;
+.flair-l-35 {
+    background-position: -200px -200px;
 }
-.flair-extra-QSH {
-    background-position: -365px -65px;
+.flair-l-36 {
+    background-position: -250px -200px;
 }
-.flair-extra-QuetzRuler {
-    background-position: -365px -125px;
+.flair-l-37 {
+    background-position: 0 -250px;
 }
-.flair-extra-Salieri1 {
-    background-position: -365px -185px;
+.flair-l-38 {
+    background-position: -50px -250px;
 }
-.flair-extra-Salieri2 {
-    background-position: -365px -245px;
+.flair-l-39 {
+    background-position: -100px -250px;
 }
-.flair-extra-Sitonai {
-    background-position: -365px -305px;
+.flair-l-4 {
+    background-position: -150px -250px;
 }
-.flair-extra-Tiamat {
-    background-position: -5px -365px;
+.flair-l-40 {
+    background-position: -200px -250px;
 }
-*[class*="flair-extraaf-"]{
-background: url(%%ExtraAF%%);
+.flair-l-41 {
+    background-position: -250px -250px;
 }
-.flair-extraaf-AbigailAF {
-    background-position: -1px -1px;
+.flair-l-42 {
+    background-position: -300px 0;
 }
-.flair-extraaf-AmakusaAF {
-    background-position: -53px -1px;
+.flair-l-5 {
+    background-position: -300px -50px;
 }
-.flair-extraaf-AngraAF {
-    background-position: -105px -1px;
+.flair-l-6 {
+    background-position: -300px -100px;
 }
-.flair-extraaf-BBAF {
-    background-position: -157px -1px;
+.flair-l-7 {
+    background-position: -300px -150px;
 }
-.flair-extraaf-DantesAF {
-    background-position: -1px -53px;
+.flair-l-8 {
+    background-position: -300px -200px;
 }
-.flair-extraaf-GoetiaAF {
-    background-position: -53px -53px;
+.flair-l-9 {
+    background-position: -300px -250px;
 }
-.flair-extraaf-GorgonAF {
-    background-position: -105px -53px;
+*[class*="flair-lf-"]{
+	background: url(%%LF%%);
 }
-.flair-extraaf-HessianAF {
-    background-position: -157px -53px;
+.flair-lf-1 {
+    background-position: 0 0;
 }
-.flair-extraaf-HokusaiAF {
-    background-position: -1px -105px;
+.flair-lf-10 {
+    background-position: -50px 0;
 }
-.flair-extraaf-HolmesAF {
-    background-position: -53px -105px;
+.flair-lf-11 {
+    background-position: -100px 0;
 }
-.flair-extraaf-JeanneAF {
-    background-position: -105px -105px;
+.flair-lf-12 {
+    background-position: -150px 0;
 }
-.flair-extraaf-JeanneAlterAF {
-    background-position: -157px -105px;
+.flair-lf-13 {
+    background-position: -200px 0;
 }
-.flair-extraaf-KiaraAF {
-    background-position: -1px -157px;
+.flair-lf-14 {
+    background-position: 0 -50px;
 }
-.flair-extraaf-LaviniaAF {
-    background-position: -53px -157px;
+.flair-lf-15 {
+    background-position: -50px -50px;
 }
-.flair-extraaf-LipAF {
-    background-position: -105px -157px;
+.flair-lf-16 {
+    background-position: -100px -50px;
 }
-.flair-extraaf-LoboAF {
-    background-position: -157px -157px;
+.flair-lf-17 {
+    background-position: -150px -50px;
 }
-.flair-extraaf-MarthaRulerAF {
-    background-position: -209px -1px;
+.flair-lf-18 {
+    background-position: -200px -50px;
 }
-.flair-extraaf-MashuAF {
-    background-position: -209px -53px;
+.flair-lf-19 {
+    background-position: 0 -100px;
 }
-.flair-extraaf-MechaEliAF1 {
-    background-position: -209px -105px;
+.flair-lf-2 {
+    background-position: -50px -100px;
 }
-.flair-extraaf-MechaEliAF2 {
-    background-position: -209px -157px;
+.flair-lf-20 {
+    background-position: -100px -100px;
 }
-.flair-extraaf-MeltAF {
-    background-position: -1px -209px;
+.flair-lf-21 {
+    background-position: -150px -100px;
 }
-.flair-extraaf-TiamatAF {
-    background-position: -53px -209px;
+.flair-lf-22 {
+    background-position: -200px -100px;
 }
-*[class*="flair-other-"]{
-    background: url(%%Other%%);
+.flair-lf-23 {
+    background-position: 0 -150px;
 }
-.flair-other-Angelica {
-    background-position: -1px -1px;
+.flair-lf-24 {
+    background-position: -50px -150px;
 }
-.flair-other-Azaka {
-    background-position: -53px -1px;
+.flair-lf-25 {
+    background-position: -100px -150px;
 }
-.flair-other-Bazett {
-    background-position: -105px -1px;
+.flair-lf-26 {
+    background-position: -150px -150px;
 }
-.flair-other-BlackKeys1 {
-    background-position: -157px -1px;
+.flair-lf-27 {
+    background-position: -200px -150px;
 }
-.flair-other-BlackKeys2 {
-    background-position: -209px -1px;
+.flair-lf-3 {
+    background-position: 0 -200px;
 }
-.flair-other-BlackKeys3 {
-    background-position: -261px -1px;
+.flair-lf-4 {
+    background-position: -50px -200px;
 }
-.flair-other-Caren {
-    background-position: -313px -1px;
+.flair-lf-5 {
+    background-position: -100px -200px;
 }
-.flair-other-Caules {
-    background-position: -1px -53px;
+.flair-lf-6 {
+    background-position: -150px -200px;
 }
-.flair-other-Fiore {
-    background-position: -53px -53px;
+.flair-lf-7 {
+    background-position: -200px -200px;
 }
-.flair-other-Flat {
-    background-position: -105px -53px;
+.flair-lf-8 {
+    background-position: -250px 0;
 }
-.flair-other-Freeman {
-    background-position: -157px -53px;
+.flair-lf-9 {
+    background-position: -250px -50px;
 }
-.flair-other-Gelda {
-    background-position: -209px -53px;
+*[class*="flair-r-"]{
+	background: url(%%R%%);
 }
-.flair-other-Gordolf {
-    background-position: -261px -53px;
+.flair-r-1 {
+    background-position: 0 0;
 }
-.flair-other-Gudako1 {
-    background-position: -313px -53px;
+.flair-r-10 {
+    background-position: -50px 0;
 }
-.flair-other-Gudako2 {
-    background-position: -1px -105px;
+.flair-r-11 {
+    background-position: -100px 0;
 }
-.flair-other-Gudao1 {
-    background-position: -53px -105px;
+.flair-r-12 {
+    background-position: -150px 0;
 }
-.flair-other-Gudao2 {
-    background-position: -105px -105px;
+.flair-r-13 {
+    background-position: -200px 0;
 }
-.flair-other-Hakuno {
-    background-position: -157px -105px;
+.flair-r-14 {
+    background-position: 0 -50px;
 }
-.flair-other-Hakunon {
-    background-position: -209px -105px;
+.flair-r-15 {
+    background-position: -50px -50px;
 }
-.flair-other-Hinako {
-    background-position: -261px -105px;
+.flair-r-16 {
+    background-position: -100px -50px;
 }
-.flair-other-IllyaFSN {
-    background-position: -313px -105px;
+.flair-r-17 {
+    background-position: -150px -50px;
 }
-.flair-other-Issei {
-    background-position: -1px -157px;
+.flair-r-18 {
+    background-position: -200px -50px;
 }
-.flair-other-Julius {
-    background-position: -53px -157px;
+.flair-r-19 {
+    background-position: 0 -100px;
 }
-.flair-other-Kadoc {
-    background-position: -105px -157px;
+.flair-r-2 {
+    background-position: -50px -100px;
 }
-.flair-other-Kairi {
-    background-position: -157px -157px;
+.flair-r-20 {
+    background-position: -100px -100px;
 }
-.flair-other-Kariya {
-    background-position: -209px -157px;
+.flair-r-21 {
+    background-position: -150px -100px;
 }
-.flair-other-Kayneth {
-    background-position: -261px -157px;
+.flair-r-22 {
+    background-position: -200px -100px;
 }
-.flair-other-Kirei {
-    background-position: -313px -157px;
+.flair-r-23 {
+    background-position: 0 -150px;
 }
-.flair-other-KiritsuguFZ {
-    background-position: -1px -209px;
+.flair-r-24 {
+    background-position: -50px -150px;
 }
-.flair-other-Leo {
-    background-position: -53px -209px;
+.flair-r-25 {
+    background-position: -100px -150px;
 }
-.flair-other-Luvia {
-    background-position: -105px -209px;
+.flair-r-26 {
+    background-position: -150px -150px;
 }
-.flair-other-Maiya {
-    background-position: -157px -209px;
+.flair-r-27 {
+    background-position: -200px -150px;
 }
-.flair-other-Mapo {
-    background-position: -209px -209px;
+.flair-r-28 {
+    background-position: 0 -200px;
 }
-.flair-other-Mercury {
-    background-position: -261px -209px;
+.flair-r-29 {
+    background-position: -50px -200px;
 }
-.flair-other-Mikiya {
-    background-position: -313px -209px;
+.flair-r-3 {
+    background-position: -100px -200px;
 }
-.flair-other-Olga {
-    background-position: -1px -261px;
+.flair-r-30 {
+    background-position: -150px -200px;
 }
-.flair-other-Ophelia {
-    background-position: -53px -261px;
+.flair-r-31 {
+    background-position: -200px -200px;
 }
-.flair-other-Rani {
-    background-position: -105px -261px;
+.flair-r-32 {
+    background-position: -250px 0;
 }
-.flair-other-Reika {
-    background-position: -157px -261px;
+.flair-r-4 {
+    background-position: -250px -50px;
 }
-.flair-other-Rin {
-    background-position: -209px -261px;
+.flair-r-5 {
+    background-position: -250px -100px;
 }
-.flair-other-RiyoGudako {
-    background-position: -261px -261px;
+.flair-r-6 {
+    background-position: -250px -150px;
 }
-.flair-other-RiyoGudao {
-    background-position: -313px -261px;
+.flair-r-7 {
+    background-position: -250px -200px;
 }
-.flair-other-Roche {
-    background-position: -1px -313px;
+.flair-r-8 {
+    background-position: 0 -250px;
 }
-.flair-other-Roman1 {
-    background-position: -53px -313px;
+.flair-r-9 {
+    background-position: -50px -250px;
 }
-.flair-other-Roman2 {
-    background-position: -105px -313px;
+
+*[class*="flair-rf-"]{
+	background: url(%%RF%%);
 }
-.flair-other-Sakura {
-    background-position: -157px -313px;
+.flair-rf-1 {
+    background-position: 0 0;
 }
-.flair-other-Shinji {
-    background-position: -209px -313px;
+.flair-rf-10 {
+    background-position: -50px 0;
 }
-.flair-other-Shirley {
-    background-position: -261px -313px;
+.flair-rf-11 {
+    background-position: -100px 0;
 }
-.flair-other-Shirou {
-    background-position: -313px -313px;
+.flair-rf-12 {
+    background-position: -150px 0;
 }
-.flair-other-Sion {
-    background-position: -365px -1px;
+.flair-rf-13 {
+    background-position: 0 -50px;
 }
-.flair-other-Sola {
-    background-position: -365px -53px;
+.flair-rf-14 {
+    background-position: -50px -50px;
 }
-.flair-other-Souichirou {
-    background-position: -365px -105px;
+.flair-rf-15 {
+    background-position: -100px -50px;
 }
-.flair-other-Svin {
-    background-position: -365px -157px;
+.flair-rf-16 {
+    background-position: -150px -50px;
 }
-.flair-other-Tokiomi {
-    background-position: -365px -209px;
+.flair-rf-17 {
+    background-position: 0 -100px;
 }
-.flair-other-Touko {
-    background-position: -365px -261px;
+.flair-rf-18 {
+    background-position: -50px -100px;
 }
-.flair-other-Twice {
-    background-position: -365px -313px;
+.flair-rf-19 {
+    background-position: -100px -100px;
 }
-.flair-other-Uryuu {
-    background-position: -1px -365px;
+.flair-rf-2 {
+    background-position: -150px -100px;
 }
-.flair-other-Yaga {
-    background-position: -53px -365px;
+.flair-rf-20 {
+    background-position: 0 -150px;
 }
-.flair-other-Zelretch {
-    background-position: -105px -365px;
+.flair-rf-21 {
+    background-position: -50px -150px;
 }
-.flair-other-Zouken {
-    background-position: -157px -365px;
+.flair-rf-22 {
+    background-position: -100px -150px;
+}
+.flair-rf-3 {
+    background-position: -150px -150px;
+}
+.flair-rf-4 {
+    background-position: -200px 0;
+}
+.flair-rf-5 {
+    background-position: -200px -50px;
+}
+.flair-rf-6 {
+    background-position: -200px -100px;
+}
+.flair-rf-7 {
+    background-position: -200px -150px;
+}
+.flair-rf-8 {
+    background-position: 0 -200px;
+}
+.flair-rf-9 {
+    background-position: -50px -200px;
+}
+
+*[class*="flair-c-"]{
+	background: url(%%C%%);
+}
+.flair-c-1 {
+    background-position: 0 0;
+}
+.flair-c-10 {
+    background-position: -50px 0;
+}
+.flair-c-11 {
+    background-position: -100px 0;
+}
+.flair-c-12 {
+    background-position: -150px 0;
+}
+.flair-c-13 {
+    background-position: -200px 0;
+}
+.flair-c-14 {
+    background-position: -250px 0;
+}
+.flair-c-15 {
+    background-position: 0 -50px;
+}
+.flair-c-16 {
+    background-position: -50px -50px;
+}
+.flair-c-17 {
+    background-position: -100px -50px;
+}
+.flair-c-18 {
+    background-position: -150px -50px;
+}
+.flair-c-19 {
+    background-position: -200px -50px;
+}
+.flair-c-2 {
+    background-position: -250px -50px;
+}
+.flair-c-20 {
+    background-position: 0 -100px;
+}
+.flair-c-21 {
+    background-position: -50px -100px;
+}
+.flair-c-22 {
+    background-position: -100px -100px;
+}
+.flair-c-23 {
+    background-position: -150px -100px;
+}
+.flair-c-24 {
+    background-position: -200px -100px;
+}
+.flair-c-25 {
+    background-position: -250px -100px;
+}
+.flair-c-26 {
+    background-position: 0 -150px;
+}
+.flair-c-27 {
+    background-position: -50px -150px;
+}
+.flair-c-28 {
+    background-position: -100px -150px;
+}
+.flair-c-29 {
+    background-position: -150px -150px;
+}
+.flair-c-3 {
+    background-position: -200px -150px;
+}
+.flair-c-30 {
+    background-position: -250px -150px;
+}
+.flair-c-31 {
+    background-position: 0 -200px;
+}
+.flair-c-32 {
+    background-position: -50px -200px;
+}
+.flair-c-33 {
+    background-position: -100px -200px;
+}
+.flair-c-34 {
+    background-position: -150px -200px;
+}
+.flair-c-35 {
+    background-position: -200px -200px;
+}
+.flair-c-36 {
+    background-position: -250px -200px;
+}
+.flair-c-37 {
+    background-position: 0 -250px;
+}
+.flair-c-38 {
+    background-position: -50px -250px;
+}
+.flair-c-39 {
+    background-position: -100px -250px;
+}
+.flair-c-4 {
+    background-position: -150px -250px;
+}
+.flair-c-40 {
+    background-position: -200px -250px;
+}
+.flair-c-41 {
+    background-position: -250px -250px;
+}
+.flair-c-42 {
+    background-position: -300px 0;
+}
+.flair-c-43 {
+    background-position: -300px -50px;
+}
+.flair-c-5 {
+    background-position: -300px -100px;
+}
+.flair-c-6 {
+    background-position: -300px -150px;
+}
+.flair-c-7 {
+    background-position: -300px -200px;
+}
+.flair-c-8 {
+    background-position: -300px -250px;
+}
+.flair-c-9 {
+    background-position: 0 -300px;
+}
+
+*[class*="flair-cf-"]{
+	background: url(%%CF%%);
+}
+.flair-cf-1 {
+    background-position: 0 0;
+}
+.flair-cf-10 {
+    background-position: -50px 0;
+}
+.flair-cf-11 {
+    background-position: -100px 0;
+}
+.flair-cf-12 {
+    background-position: -150px 0;
+}
+.flair-cf-13 {
+    background-position: -200px 0;
+}
+.flair-cf-14 {
+    background-position: 0 -50px;
+}
+.flair-cf-15 {
+    background-position: -50px -50px;
+}
+.flair-cf-16 {
+    background-position: -100px -50px;
+}
+.flair-cf-17 {
+    background-position: -150px -50px;
+}
+.flair-cf-18 {
+    background-position: -200px -50px;
+}
+.flair-cf-19 {
+    background-position: 0 -100px;
+}
+.flair-cf-2 {
+    background-position: -50px -100px;
+}
+.flair-cf-20 {
+    background-position: -100px -100px;
+}
+.flair-cf-21 {
+    background-position: -150px -100px;
+}
+.flair-cf-22 {
+    background-position: -200px -100px;
+}
+.flair-cf-23 {
+    background-position: 0 -150px;
+}
+.flair-cf-24 {
+    background-position: -50px -150px;
+}
+.flair-cf-25 {
+    background-position: -100px -150px;
+}
+.flair-cf-26 {
+    background-position: -150px -150px;
+}
+.flair-cf-27 {
+    background-position: -200px -150px;
+}
+.flair-cf-28 {
+    background-position: 0 -200px;
+}
+.flair-cf-29 {
+    background-position: -50px -200px;
+}
+.flair-cf-3 {
+    background-position: -100px -200px;
+}
+.flair-cf-30 {
+    background-position: -150px -200px;
+}
+.flair-cf-31 {
+    background-position: -200px -200px;
+}
+.flair-cf-4 {
+    background-position: -250px 0;
+}
+.flair-cf-5 {
+    background-position: -250px -50px;
+}
+.flair-cf-6 {
+    background-position: -250px -100px;
+}
+.flair-cf-7 {
+    background-position: -250px -150px;
+}
+.flair-cf-8 {
+    background-position: -250px -200px;
+}
+.flair-cf-9 {
+    background-position: 0 -250px;
+}
+*[class*="flair-h-"]{
+	background: url(%%H%%);
+}
+.flair-h-1 {
+    background-position: 0 0;
+}
+.flair-h-10 {
+    background-position: -50px 0;
+}
+.flair-h-11 {
+    background-position: -100px 0;
+}
+.flair-h-12 {
+    background-position: -150px 0;
+}
+.flair-h-13 {
+    background-position: -200px 0;
+}
+.flair-h-14 {
+    background-position: -250px 0;
+}
+.flair-h-15 {
+    background-position: 0 -50px;
+}
+.flair-h-16 {
+    background-position: -50px -50px;
+}
+.flair-h-17 {
+    background-position: -100px -50px;
+}
+.flair-h-18 {
+    background-position: -150px -50px;
+}
+.flair-h-19 {
+    background-position: -200px -50px;
+}
+.flair-h-2 {
+    background-position: -250px -50px;
+}
+.flair-h-20 {
+    background-position: 0 -100px;
+}
+.flair-h-21 {
+    background-position: -50px -100px;
+}
+.flair-h-22 {
+    background-position: -100px -100px;
+}
+.flair-h-23 {
+    background-position: -150px -100px;
+}
+.flair-h-24 {
+    background-position: -200px -100px;
+}
+.flair-h-25 {
+    background-position: -250px -100px;
+}
+.flair-h-26 {
+    background-position: 0 -150px;
+}
+.flair-h-27 {
+    background-position: -50px -150px;
+}
+.flair-h-28 {
+    background-position: -100px -150px;
+}
+.flair-h-29 {
+    background-position: -150px -150px;
+}
+.flair-h-3 {
+    background-position: -200px -150px;
+}
+.flair-h-30 {
+    background-position: -250px -150px;
+}
+.flair-h-31 {
+    background-position: 0 -200px;
+}
+.flair-h-32 {
+    background-position: -50px -200px;
+}
+.flair-h-33 {
+    background-position: -100px -200px;
+}
+.flair-h-34 {
+    background-position: -150px -200px;
+}
+.flair-h-35 {
+    background-position: -200px -200px;
+}
+.flair-h-36 {
+    background-position: -250px -200px;
+}
+.flair-h-37 {
+    background-position: 0 -250px;
+}
+.flair-h-38 {
+    background-position: -50px -250px;
+}
+.flair-h-39 {
+    background-position: -100px -250px;
+}
+.flair-h-4 {
+    background-position: -150px -250px;
+}
+.flair-h-40 {
+    background-position: -200px -250px;
+}
+.flair-h-5 {
+    background-position: -250px -250px;
+}
+.flair-h-6 {
+    background-position: -300px 0;
+}
+.flair-h-7 {
+    background-position: -300px -50px;
+}
+.flair-h-8 {
+    background-position: -300px -100px;
+}
+.flair-h-9 {
+    background-position: -300px -150px;
+}
+*[class*="flair-hf-"]{
+	background: url(%%HF%%);
+}
+.flair-hf-1 {
+    background-position: 0 0;
+}
+.flair-hf-10 {
+    background-position: -50px 0;
+}
+.flair-hf-11 {
+    background-position: -100px 0;
+}
+.flair-hf-12 {
+    background-position: -150px 0;
+}
+.flair-hf-13 {
+    background-position: -200px 0;
+}
+.flair-hf-14 {
+    background-position: 0 -50px;
+}
+.flair-hf-15 {
+    background-position: -50px -50px;
+}
+.flair-hf-16 {
+    background-position: -100px -50px;
+}
+.flair-hf-17 {
+    background-position: -150px -50px;
+}
+.flair-hf-18 {
+    background-position: -200px -50px;
+}
+.flair-hf-19 {
+    background-position: 0 -100px;
+}
+.flair-hf-2 {
+    background-position: -50px -100px;
+}
+.flair-hf-20 {
+    background-position: -100px -100px;
+}
+.flair-hf-21 {
+    background-position: -150px -100px;
+}
+.flair-hf-22 {
+    background-position: -200px -100px;
+}
+.flair-hf-23 {
+    background-position: 0 -150px;
+}
+.flair-hf-24 {
+    background-position: -50px -150px;
+}
+.flair-hf-25 {
+    background-position: -100px -150px;
+}
+.flair-hf-26 {
+    background-position: -150px -150px;
+}
+.flair-hf-27 {
+    background-position: -200px -150px;
+}
+.flair-hf-3 {
+    background-position: 0 -200px;
+}
+.flair-hf-4 {
+    background-position: -50px -200px;
+}
+.flair-hf-5 {
+    background-position: -100px -200px;
+}
+.flair-hf-6 {
+    background-position: -150px -200px;
+}
+.flair-hf-7 {
+    background-position: -200px -200px;
+}
+.flair-hf-8 {
+    background-position: -250px 0;
+}
+.flair-hf-9 {
+    background-position: -250px -50px;
+}
+*[class*="flair-b-"]{
+	background: url(%%B%%);
+}
+.flair-b-1 {
+    background-position: 0 0;
+}
+.flair-b-10 {
+    background-position: -50px 0;
+}
+.flair-b-11 {
+    background-position: -100px 0;
+}
+.flair-b-12 {
+    background-position: -150px 0;
+}
+.flair-b-13 {
+    background-position: -200px 0;
+}
+.flair-b-14 {
+    background-position: 0 -50px;
+}
+.flair-b-15 {
+    background-position: -50px -50px;
+}
+.flair-b-16 {
+    background-position: -100px -50px;
+}
+.flair-b-17 {
+    background-position: -150px -50px;
+}
+.flair-b-18 {
+    background-position: -200px -50px;
+}
+.flair-b-19 {
+    background-position: 0 -100px;
+}
+.flair-b-2 {
+    background-position: -50px -100px;
+}
+.flair-b-20 {
+    background-position: -100px -100px;
+}
+.flair-b-21 {
+    background-position: -150px -100px;
+}
+.flair-b-22 {
+    background-position: -200px -100px;
+}
+.flair-b-23 {
+    background-position: 0 -150px;
+}
+.flair-b-24 {
+    background-position: -50px -150px;
+}
+.flair-b-25 {
+    background-position: -100px -150px;
+}
+.flair-b-26 {
+    background-position: -150px -150px;
+}
+.flair-b-27 {
+    background-position: -200px -150px;
+}
+.flair-b-28 {
+    background-position: 0 -200px;
+}
+.flair-b-29 {
+    background-position: -50px -200px;
+}
+.flair-b-3 {
+    background-position: -100px -200px;
+}
+.flair-b-30 {
+    background-position: -150px -200px;
+}
+.flair-b-31 {
+    background-position: -200px -200px;
+}
+.flair-b-32 {
+    background-position: -250px 0;
+}
+.flair-b-33 {
+    background-position: -250px -50px;
+}
+.flair-b-4 {
+    background-position: -250px -100px;
+}
+.flair-b-5 {
+    background-position: -250px -150px;
+}
+.flair-b-6 {
+    background-position: -250px -200px;
+}
+.flair-b-7 {
+    background-position: 0 -250px;
+}
+.flair-b-8 {
+    background-position: -50px -250px;
+}
+.flair-b-9 {
+    background-position: -100px -250px;
+}
+*[class*="flair-bf-"]{
+	background: url(%%BF%%);
+}
+.flair-bf-1 {
+    background-position: 0 0;
+}
+.flair-bf-10 {
+    background-position: -50px 0;
+}
+.flair-bf-11 {
+    background-position: -100px 0;
+}
+.flair-bf-12 {
+    background-position: -150px 0;
+}
+.flair-bf-13 {
+    background-position: 0 -50px;
+}
+.flair-bf-14 {
+    background-position: -50px -50px;
+}
+.flair-bf-15 {
+    background-position: -100px -50px;
+}
+.flair-bf-16 {
+    background-position: -150px -50px;
+}
+.flair-bf-17 {
+    background-position: 0 -100px;
+}
+.flair-bf-18 {
+    background-position: -50px -100px;
+}
+.flair-bf-19 {
+    background-position: -100px -100px;
+}
+.flair-bf-2 {
+    background-position: -150px -100px;
+}
+.flair-bf-20 {
+    background-position: 0 -150px;
+}
+.flair-bf-21 {
+    background-position: -50px -150px;
+}
+.flair-bf-22 {
+    background-position: -100px -150px;
+}
+.flair-bf-23 {
+    background-position: -150px -150px;
+}
+.flair-bf-24 {
+    background-position: -200px 0;
+}
+.flair-bf-3 {
+    background-position: -200px -50px;
+}
+.flair-bf-4 {
+    background-position: -200px -100px;
+}
+.flair-bf-5 {
+    background-position: -200px -150px;
+}
+.flair-bf-6 {
+    background-position: 0 -200px;
+}
+.flair-bf-7 {
+    background-position: -50px -200px;
+}
+.flair-bf-8 {
+    background-position: -100px -200px;
+}
+.flair-bf-9 {
+    background-position: -150px -200px;
+}
+*[class*="flair-e-"]{
+	background: url(%%E%%);
+}
+.flair-e-A1 {
+    background-position: 0 0;
+}
+.flair-e-A10 {
+    background-position: -50px 0;
+}
+.flair-e-A11 {
+    background-position: -100px 0;
+}
+.flair-e-A12 {
+    background-position: -150px 0;
+}
+.flair-e-A2 {
+    background-position: -200px 0;
+}
+.flair-e-A3 {
+    background-position: -250px 0;
+}
+.flair-e-A4 {
+    background-position: 0 -50px;
+}
+.flair-e-A5 {
+    background-position: -50px -50px;
+}
+.flair-e-A6 {
+    background-position: -100px -50px;
+}
+.flair-e-A7 {
+    background-position: -150px -50px;
+}
+.flair-e-A8 {
+    background-position: -200px -50px;
+}
+.flair-e-A9 {
+    background-position: -250px -50px;
+}
+.flair-e-B1 {
+    background-position: 0 -100px;
+}
+.flair-e-B2 {
+    background-position: -50px -100px;
+}
+.flair-e-F1 {
+    background-position: -100px -100px;
+}
+.flair-e-F2 {
+    background-position: -150px -100px;
+}
+.flair-e-F3 {
+    background-position: -200px -100px;
+}
+.flair-e-F4 {
+    background-position: -250px -100px;
+}
+.flair-e-F5 {
+    background-position: 0 -150px;
+}
+.flair-e-F6 {
+    background-position: -50px -150px;
+}
+.flair-e-F7 {
+    background-position: -100px -150px;
+}
+.flair-e-G1 {
+    background-position: -150px -150px;
+}
+.flair-e-G2 {
+    background-position: -200px -150px;
+}
+.flair-e-G3 {
+    background-position: -250px -150px;
+}
+.flair-e-G4 {
+    background-position: 0 -200px;
+}
+.flair-e-G5 {
+    background-position: -50px -200px;
+}
+.flair-e-G6 {
+    background-position: -100px -200px;
+}
+.flair-e-G7 {
+    background-position: -150px -200px;
+}
+.flair-e-G8 {
+    background-position: -200px -200px;
+}
+.flair-e-M1 {
+    background-position: -250px -200px;
+}
+.flair-e-M2 {
+    background-position: 0 -250px;
+}
+.flair-e-M3 {
+    background-position: -50px -250px;
+}
+.flair-e-M4 {
+    background-position: -100px -250px;
+}
+.flair-e-R1 {
+    background-position: -150px -250px;
+}
+.flair-e-R2 {
+    background-position: -200px -250px;
+}
+.flair-e-R3 {
+    background-position: -250px -250px;
+}
+.flair-e-R4 {
+    background-position: -300px 0;
+}
+.flair-e-R5 {
+    background-position: -300px -50px;
+}
+.flair-e-R6 {
+    background-position: -300px -100px;
+}
+.flair-e-R7 {
+    background-position: -300px -150px;
+}
+.flair-e-R8 {
+    background-position: -300px -200px;
+}
+.flair-e-S1 {
+    background-position: -300px -250px;
+}
+.flair-e-S2 {
+    background-position: 0 -300px;
+}
+*[class*="flair-ef-"]{
+	background: url(%%EF%%);
+}
+.flair-ef-A1 {
+    background-position: 0 0;
+}
+.flair-ef-A2 {
+    background-position: -50px 0;
+}
+.flair-ef-A3 {
+    background-position: -100px 0;
+}
+.flair-ef-A4 {
+    background-position: -150px 0;
+}
+.flair-ef-A5 {
+    background-position: 0 -50px;
+}
+.flair-ef-A6 {
+    background-position: -50px -50px;
+}
+.flair-ef-B1 {
+    background-position: -100px -50px;
+}
+.flair-ef-B2 {
+    background-position: -150px -50px;
+}
+.flair-ef-F1 {
+    background-position: 0 -100px;
+}
+.flair-ef-F2 {
+    background-position: -50px -100px;
+}
+.flair-ef-F3 {
+    background-position: -100px -100px;
+}
+.flair-ef-G1 {
+    background-position: -150px -100px;
+}
+.flair-ef-G2 {
+    background-position: 0 -150px;
+}
+.flair-ef-G3 {
+    background-position: -50px -150px;
+}
+.flair-ef-G4 {
+    background-position: -100px -150px;
+}
+.flair-ef-G5 {
+    background-position: -150px -150px;
+}
+.flair-ef-M1 {
+    background-position: -200px 0;
+}
+.flair-ef-R1 {
+    background-position: -200px -50px;
+}
+.flair-ef-R2 {
+    background-position: -200px -100px;
+}
+.flair-ef-R3 {
+    background-position: -200px -150px;
+}
+.flair-ef-R4 {
+    background-position: 0 -200px;
+}
+.flair-ef-S1 {
+    background-position: -50px -200px;
+}
+*[class*="flair-p-"]{
+	background: url(%%P%%);
+}
+.flair-p-1 {
+    background-position: 0 0;
+}
+.flair-p-10 {
+    background-position: -50px 0;
+}
+.flair-p-11 {
+    background-position: -100px 0;
+}
+.flair-p-12 {
+    background-position: -150px 0;
+}
+.flair-p-13 {
+    background-position: -200px 0;
+}
+.flair-p-14 {
+    background-position: -250px 0;
+}
+.flair-p-15 {
+    background-position: -300px 0;
+}
+.flair-p-16 {
+    background-position: 0 -50px;
+}
+.flair-p-17 {
+    background-position: -50px -50px;
+}
+.flair-p-18 {
+    background-position: -100px -50px;
+}
+.flair-p-19 {
+    background-position: -150px -50px;
+}
+.flair-p-2 {
+    background-position: -200px -50px;
+}
+.flair-p-20 {
+    background-position: -250px -50px;
+}
+.flair-p-21 {
+    background-position: -300px -50px;
+}
+.flair-p-22 {
+    background-position: 0 -100px;
+}
+.flair-p-23 {
+    background-position: -50px -100px;
+}
+.flair-p-24 {
+    background-position: -100px -100px;
+}
+.flair-p-25 {
+    background-position: -150px -100px;
+}
+.flair-p-26 {
+    background-position: -200px -100px;
+}
+.flair-p-27 {
+    background-position: -250px -100px;
+}
+.flair-p-28 {
+    background-position: -300px -100px;
+}
+.flair-p-29 {
+    background-position: 0 -150px;
+}
+.flair-p-3 {
+    background-position: -50px -150px;
+}
+.flair-p-30 {
+    background-position: -100px -150px;
+}
+.flair-p-31 {
+    background-position: -150px -150px;
+}
+.flair-p-32 {
+    background-position: -200px -150px;
+}
+.flair-p-34 {
+    background-position: -250px -150px;
+}
+.flair-p-35 {
+    background-position: -300px -150px;
+}
+.flair-p-36 {
+    background-position: 0 -200px;
+}
+.flair-p-37 {
+    background-position: -50px -200px;
+}
+.flair-p-38 {
+    background-position: -100px -200px;
+}
+.flair-p-39 {
+    background-position: -150px -200px;
+}
+.flair-p-4 {
+    background-position: -200px -200px;
+}
+.flair-p-40 {
+    background-position: -250px -200px;
+}
+.flair-p-41 {
+    background-position: -300px -200px;
+}
+.flair-p-42 {
+    background-position: 0 -250px;
+}
+.flair-p-43 {
+    background-position: -50px -250px;
+}
+.flair-p-44 {
+    background-position: -100px -250px;
+}
+.flair-p-45 {
+    background-position: -150px -250px;
+}
+.flair-p-46 {
+    background-position: -200px -250px;
+}
+.flair-p-47 {
+    background-position: -250px -250px;
+}
+.flair-p-48 {
+    background-position: -300px -250px;
+}
+.flair-p-49 {
+    background-position: 0 -300px;
+}
+.flair-p-5 {
+    background-position: -50px -300px;
+}
+.flair-p-50 {
+    background-position: -100px -300px;
+}
+.flair-p-51 {
+    background-position: -150px -300px;
+}
+.flair-p-52 {
+    background-position: -200px -300px;
+}
+.flair-p-53 {
+    background-position: -250px -300px;
+}
+.flair-p-54 {
+    background-position: -300px -300px;
+}
+.flair-p-55 {
+    background-position: -350px 0;
+}
+.flair-p-56 {
+    background-position: -350px -50px;
+}
+.flair-p-6 {
+    background-position: -350px -100px;
+}
+.flair-p-7 {
+    background-position: -350px -150px;
+}
+.flair-p-8 {
+    background-position: -350px -200px;
+}
+.flair-p-9 {
+    background-position: -350px -250px;
 }
 *[class*="flair-20-"] {
     background-image: url(%%Uniqueflair%%);
